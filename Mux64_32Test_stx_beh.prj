@@ -1,0 +1,3 @@
+verilog isim_temp "Mux64_32.v"
+verilog isim_temp "Mux64_32Test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

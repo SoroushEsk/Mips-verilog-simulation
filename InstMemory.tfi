@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+InstMemory instance_name (
+    .address(address), 
+    .CLk(CLk), 
+    .instruction(instruction)
+    );
+
+

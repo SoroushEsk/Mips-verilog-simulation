@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Mux64_32 instance_name (
+    .pcPlusFour(pcPlusFour), 
+    .jumpAmount(jumpAmount), 
+    .select(select), 
+    .PC(PC)
+    );
+
+

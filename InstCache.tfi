@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+InstCache instance_name (
+    .address(address), 
+    .data(data), 
+    .Clk(Clk), 
+    .inst(inst), 
+    .hit(hit)
+    );
+
+

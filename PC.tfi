@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+PC instance_name (
+    .dataInput(dataInput), 
+    .CLK(CLK), 
+    .dataOut(dataOut)
+    );
+
+

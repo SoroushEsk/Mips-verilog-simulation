@@ -1,0 +1,5 @@
+verilog work "PC.v"
+verilog work "Mux2NToN.v"
+verilog work "InstMemory.v"
+verilog work "InstCache.v"
+verilog work "FetchModule.v"

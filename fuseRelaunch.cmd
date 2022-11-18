@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/University/term5/Az memary/ComputerArthitectureLab/FetchTest_isim_beh.exe" -prj "G:/University/term5/Az memary/ComputerArthitectureLab/FetchTest_beh.prj" "work.FetchTest" "work.glbl" 

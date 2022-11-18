@@ -1,0 +1,7 @@
+verilog isim_temp "PC.v"
+verilog isim_temp "Mux64_32.v"
+verilog isim_temp "InstMemory.v"
+verilog isim_temp "InstCache.v"
+verilog isim_temp "FetchModule.v"
+verilog isim_temp "FetchTest.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

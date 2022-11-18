@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.syr" 
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.syr" 
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.syr" 
+vhdtdtfi -lang verilog -prj ComputerArthitectureLab -o "G:/University/term5/Az memary/ComputerArthitectureLab/InstCache.tfi" -lib work "G:/University/term5/Az memary/ComputerArthitectureLab//InstCache.v" -module InstCache -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

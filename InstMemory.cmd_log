@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/InstMemory.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/InstMemory.syr" 
+vhdtdtfi -lang verilog -prj ComputerArthitectureLab -o "G:/University/term5/Az memary/ComputerArthitectureLab/InstMemory.tfi" -lib work "G:/University/term5/Az memary/ComputerArthitectureLab//InstMemory.v" -module InstMemory -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

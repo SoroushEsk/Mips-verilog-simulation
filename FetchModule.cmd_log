@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.syr" 
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.syr" 
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.syr" 
