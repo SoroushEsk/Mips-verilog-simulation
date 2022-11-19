@@ -24,10 +24,11 @@ module PC(
 		output reg [31:0] dataOut
     );
 	 
+	 
 	 initial dataOut = 0; 
 	 
 	 always @ (negedge CLK) begin
-			dataOut <= dataInput + 4; 
+			dataOut <= dataInput; 
 	 end
 
 endmodule

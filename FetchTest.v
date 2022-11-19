@@ -50,7 +50,7 @@ module FetchTest;
 		branchTarget = 0;
 		Clk = 0;
 		PCSrc = 0;
-		nextPC = -4;
+		nextPC = 0;
 
 		// Wait 100 ns for global reset to finish
 		#10;
@@ -64,7 +64,7 @@ module FetchTest;
 		Clk <= ~Clk; 
 	end
 	always @ (posedge Clk)
-		nextPC <= pcOut;
+		nextPC <= nextPC + 4;
 endmodule
 
 

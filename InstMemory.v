@@ -12,7 +12,7 @@ module InstMemory(
 	 reg [1023:0] i;
 	 
 	 initial begin
-			counter = 0;
+			counter = -1;
 			for(i = 0 ; i < 1024; i = i + 1) begin
 			
 				instructionMemory[i] = i[7:0];
@@ -41,11 +41,9 @@ module InstMemory(
 	 end
 		
 
-	 always @ (posedge CLk ) begin
-			counter = counter + 1;
-			if (counter == 1 && address == 0)
-				counter = 0;
-			if ( counter == 5 )
+	 always @ (negedge CLk ) begin
+	 			counter = counter + 1;
+			if ( counter == 4 )
 				counter = 0;
 			$display("time : %0t address : %d  counter : %d" , $time , address , counter);
 			if (counter == 0) begin 

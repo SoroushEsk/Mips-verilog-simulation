@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.18 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.76 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.76 secs
  
 --> Reading design: FetchModule.prj
 
@@ -107,29 +107,22 @@ Slice Utilization Ratio Delta      : 5
 =========================================================================
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\PC.v" into library work
 Parsing module <PC>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\Mux2NToN.v" into library work
-Parsing module <Mux2NToN>.
+Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\Mux64_32.v" into library work
+Parsing module <Mux64_32>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\InstMemory.v" into library work
 Parsing module <InstMemory>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\InstCache.v" into library work
 Parsing module <InstCache>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" into library work
 Parsing module <FetchModule>.
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 47: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 47: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 48: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 48: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 49: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 49: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 50: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
-ERROR:HDLCompiler:1660 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 50: Procedural assignment to a non-register inst is not permitted, left-hand side should be reg/integer/time/genvar
+ERROR:HDLCompiler:329 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 37: Target <saveMemAmount> of concurrent assignment or output port connection should be a net type.
 ERROR:HDLCompiler:598 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 3: Module <FetchModule> ignored due to previous errors.
 Verilog file G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v ignored due to errors
 --> 
 
 Total memory usage is 4497420 kilobytes
 
-Number of errors   :    9 (   0 filtered)
+Number of errors   :    2 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

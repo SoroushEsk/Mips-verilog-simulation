@@ -23,16 +23,15 @@
 #endif
 static const char *ng0 = "G:/University/term5/Az memary/ComputerArthitectureLab/PC.v";
 static int ng1[] = {0, 0};
-static int ng2[] = {4, 0};
 
 
 
-static void Initial_27_0(char *t0)
+static void Initial_28_0(char *t0)
 {
     char *t1;
     char *t2;
 
-LAB0:    xsi_set_current_line(27, ng0);
+LAB0:    xsi_set_current_line(28, ng0);
     t1 = ((char*)((ng1)));
     t2 = (t0 + 1608);
     xsi_vlogvar_assign_value(t2, t1, 0, 0, 32);
@@ -40,15 +39,13 @@ LAB0:    xsi_set_current_line(27, ng0);
 LAB1:    return;
 }
 
-static void Always_29_1(char *t0)
+static void Always_30_1(char *t0)
 {
-    char t6[8];
     char *t1;
     char *t2;
     char *t3;
     char *t4;
     char *t5;
-    char *t7;
 
 LAB0:    t1 = (t0 + 2776U);
     t2 = *((char **)t1);
@@ -57,7 +54,7 @@ LAB0:    t1 = (t0 + 2776U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(29, ng0);
+LAB2:    xsi_set_current_line(30, ng0);
     t2 = (t0 + 3096);
     *((int *)t2) = 1;
     t3 = (t0 + 2808);
@@ -65,16 +62,13 @@ LAB2:    xsi_set_current_line(29, ng0);
     *((char **)t1) = &&LAB4;
 
 LAB1:    return;
-LAB4:    xsi_set_current_line(29, ng0);
+LAB4:    xsi_set_current_line(30, ng0);
 
-LAB5:    xsi_set_current_line(30, ng0);
+LAB5:    xsi_set_current_line(31, ng0);
     t4 = (t0 + 1048U);
     t5 = *((char **)t4);
-    t4 = ((char*)((ng2)));
-    memset(t6, 0, 8);
-    xsi_vlog_unsigned_add(t6, 32, t5, 32, t4, 32);
-    t7 = (t0 + 1608);
-    xsi_vlogvar_wait_assign_value(t7, t6, 0, 0, 32, 0LL);
+    t4 = (t0 + 1608);
+    xsi_vlogvar_wait_assign_value(t4, t5, 0, 0, 32, 0LL);
     goto LAB2;
 
 }
@@ -82,7 +76,7 @@ LAB5:    xsi_set_current_line(30, ng0);
 
 extern void work_m_00000000002837851810_1733832700_init()
 {
-	static char *pe[] = {(void *)Initial_27_0,(void *)Always_29_1};
+	static char *pe[] = {(void *)Initial_28_0,(void *)Always_30_1};
 	xsi_register_didat("work_m_00000000002837851810_1733832700", "isim/FetchTest_isim_beh.exe.sim/work/m_00000000002837851810_1733832700.didat");
 	xsi_register_executes(pe);
 }

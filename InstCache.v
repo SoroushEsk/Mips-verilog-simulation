@@ -19,31 +19,33 @@ module InstCache(
 			inst = 0;
 			hit  = 0;
 		end // initial block
-			
+		reg [31:00] preAddress;
 		always @ (data) begin
 			// change cache amount at fifth clock
-			cacheLevel1[address[6:4]][127:0]   <= data;
-			cacheLevel1[address[6:4]][152:128] <= address[31:7];
-			cacheLevel1[address[6:4]][153]     <= 1;
-			
+			preAddress  = address + 4;
+			cacheLevel1[preAddress[6:4]][127:0]   = data;
+			cacheLevel1[preAddress[6:4]][152:128] = preAddress[31:7];
+			cacheLevel1[preAddress[6:4]][153]     = 1'b1;
+			$display ( " cache amount : %H       %H" , cacheLevel1[preAddress[6:4]],			cacheLevel1[preAddress[6:4]][153]      );
 		end // changing cache amount end
 
 			
 		always @ (posedge Clk) begin
 			$display ( "time : %0t   address : %d    data : %h", $time , address , data);
+			$display ( "*******************  ,, cache : %H       %h" , cacheLevel1[address[6:4]],cacheLevel1[address[6:4]][153]);
 			if( cacheLevel1[address[6:4]][152:128] == address[31:7] && cacheLevel1[address[6:4]][153] == 1) begin
 				// check offset
 				case(address[3:2])
-					2'b00: inst <= cacheLevel1[address[6:4]][31:0];
-					2'b01: inst <= cacheLevel1[address[6:4]][63:32];
-					2'b10: inst <= cacheLevel1[address[6:4]][95:64];
-					2'b11: inst <= cacheLevel1[address[6:4]][127:96];
-
+					2'b00: inst = cacheLevel1[address[6:4]][31:0];
+					2'b01: inst = cacheLevel1[address[6:4]][63:32];
+					2'b10: inst = cacheLevel1[address[6:4]][95:64];
+					2'b11: inst = cacheLevel1[address[6:4]][127:96];
+					
 				endcase
-				hit <= 1;
+				hit = 1;
 			end // if end 
 			else begin
-				hit  <= 0;
+				hit  = 0;
 			end // else
 		end // always end block
 		

@@ -17,7 +17,7 @@
   <files>
     <file xil_pn:name="Mux64_32.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="2"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
     </file>
     <file xil_pn:name="Mux64_32Test.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -27,7 +27,7 @@
     </file>
     <file xil_pn:name="PC.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
     <file xil_pn:name="PCtest.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -47,7 +47,7 @@
     </file>
     <file xil_pn:name="InstMemory.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
     <file xil_pn:name="memoryInstTest.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -57,7 +57,7 @@
     </file>
     <file xil_pn:name="InstCache.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="4"/>
     </file>
     <file xil_pn:name="InstCacheTest.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="0"/>
@@ -67,7 +67,7 @@
     </file>
     <file xil_pn:name="FetchModule.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="5"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="5"/>
     </file>
     <file xil_pn:name="FetchTest.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="6"/>

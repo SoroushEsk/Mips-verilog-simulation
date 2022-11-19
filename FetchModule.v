@@ -32,7 +32,9 @@ module FetchModule(
     .CLk(Clk), 
     .instruction(outOfMemory) 
     );
+	 
 
+	 
 	 InstCache instCacheLevel1 (
     .address(pcOut), 
     .data(outOfMemory), 
@@ -42,7 +44,9 @@ module FetchModule(
     );
 
 	 always @ (posedge Clk) begin 
-		$monitor ("time : %0t  instMem : %h", $time , outOfMemory );
+
+		$display ("time : %0t t instMem : %h ", $time  , outOfMemory );
+		
 	 end
 
 	 
