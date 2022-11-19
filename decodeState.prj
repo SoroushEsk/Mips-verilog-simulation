@@ -1,0 +1,3 @@
+verilog work "signExtend32.v"
+verilog work "registerFile.v"
+verilog work "decodeState.v"

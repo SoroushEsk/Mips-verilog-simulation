@@ -1,0 +1,5 @@
+verilog work "signExtend32.v"
+verilog work "registerFile.v"
+verilog work "decodeState.v"
+verilog work "decodeTest.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

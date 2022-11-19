@@ -7,15 +7,16 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/FetchModule G:|University|term5|Az memary|ComputerArthitectureLab|FetchModule.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>pcReg - PC (G:/University/term5/Az memary/ComputerArthitectureLab/PC.v)</SelectedItem>
+         <SelectedItem>decodeState (G:/University/term5/Az memary/ComputerArthitectureLab/decodeState.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000287000000020000000000000000000000000200000064ffffffff000000810000000300000002000002870000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000029f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000029f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>pcReg - PC (G:/University/term5/Az memary/ComputerArthitectureLab/PC.v)</CurrentItem>
+      <CurrentItem>decodeState (G:/University/term5/Az memary/ComputerArthitectureLab/decodeState.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -83,32 +84,36 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View HDL Instantiation Template</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View HDL Instantiation Template</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/FetchTest G:|University|term5|Az memary|ComputerArthitectureLab|FetchTest.v</ClosedNode>
          <ClosedNode>/InstCacheTest G:|University|term5|Az memary|ComputerArthitectureLab|InstCacheTest.v</ClosedNode>
          <ClosedNode>/InstMemTest G:|University|term5|Az memary|ComputerArthitectureLab|InstMemTest.v</ClosedNode>
          <ClosedNode>/InstMemoryTest G:|University|term5|Az memary|ComputerArthitectureLab|InstMemoryTest.v</ClosedNode>
          <ClosedNode>/Mux2NtoNTest G:|University|term5|Az memary|ComputerArthitectureLab|Mux2NtoNTest.v</ClosedNode>
          <ClosedNode>/Mux64_32Test G:|University|term5|Az memary|ComputerArthitectureLab|Mux64_32Test.v</ClosedNode>
          <ClosedNode>/PCtest G:|University|term5|Az memary|ComputerArthitectureLab|PCtest.v</ClosedNode>
+         <ClosedNode>/memoryInstTest G:|University|term5|Az memary|ComputerArthitectureLab|memoryInstTest.v</ClosedNode>
+         <ClosedNode>/regFileTest G:|University|term5|Az memary|ComputerArthitectureLab|regFileTest.v</ClosedNode>
+         <ClosedNode>/signExtendTest G:|University|term5|Az memary|ComputerArthitectureLab|signExtendTest.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>FetchTest (G:/University/term5/Az memary/ComputerArthitectureLab/FetchTest.v)</SelectedItem>
+         <SelectedItem>decodeTest (G:/University/term5/Az memary/ComputerArthitectureLab/decodeTest.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000029b000000020000000000000000000000000200000064ffffffff0000008100000003000000020000029b0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002b3000000020000000000000000000000000200000064ffffffff000000810000000300000002000002b30000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>FetchTest (G:/University/term5/Az memary/ComputerArthitectureLab/FetchTest.v)</CurrentItem>
+      <CurrentItem>decodeTest (G:/University/term5/Az memary/ComputerArthitectureLab/decodeTest.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -138,5 +143,5 @@
       <CurrentItem>ISim Simulator</CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
 </Project>

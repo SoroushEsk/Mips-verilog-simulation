@@ -33,9 +33,7 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="FetchModule_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="FetchModule_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FetchModule_xst.xrpt"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FetchTest_beh.prj"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FetchTest_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="FetchTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FetchTest_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="InstCache.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="InstCache.lso"/>
@@ -105,12 +103,27 @@
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="PCtest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="PCtest_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decodeState.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="decodeState.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="decodeState.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decodeTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="decodeTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="decodeTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="memoryInstTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="memoryInstTest_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="regFileTest_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="regFileTest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="regFileTest_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registerFile.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="registerFile.stx"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="registerFile.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="registerFile.xst"/>
+    <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="signExtend32.tfi"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="signExtendTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
@@ -121,7 +134,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1668879058" xil_pn:in_ck="1238320082851529608" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1668879058">
+    <transform xil_pn:end_ts="1668897235" xil_pn:in_ck="1204165415660957955" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1668897235">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FetchModule.v"/>
@@ -135,13 +148,19 @@
       <outfile xil_pn:name="Mux64_32Test.v"/>
       <outfile xil_pn:name="PC.v"/>
       <outfile xil_pn:name="PCtest.v"/>
+      <outfile xil_pn:name="decodeState.v"/>
+      <outfile xil_pn:name="decodeTest.v"/>
       <outfile xil_pn:name="memoryInstTest.v"/>
+      <outfile xil_pn:name="regFileTest.v"/>
+      <outfile xil_pn:name="registerFile.v"/>
+      <outfile xil_pn:name="signExtend32.v"/>
+      <outfile xil_pn:name="signExtendTest.v"/>
     </transform>
-    <transform xil_pn:end_ts="1668761844" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7928464967593326209" xil_pn:start_ts="1668761844">
+    <transform xil_pn:end_ts="1668896397" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1338026176187785381" xil_pn:start_ts="1668896397">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1668761844" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="6083330651877788191" xil_pn:start_ts="1668761844">
+    <transform xil_pn:end_ts="1668896397" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="184307383260252665" xil_pn:start_ts="1668896397">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -149,7 +168,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1668879058" xil_pn:in_ck="1238320082851529608" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1668879058">
+    <transform xil_pn:end_ts="1668897235" xil_pn:in_ck="1204165415660957955" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1668897235">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="FetchModule.v"/>
@@ -163,24 +182,32 @@
       <outfile xil_pn:name="Mux64_32Test.v"/>
       <outfile xil_pn:name="PC.v"/>
       <outfile xil_pn:name="PCtest.v"/>
+      <outfile xil_pn:name="decodeState.v"/>
+      <outfile xil_pn:name="decodeTest.v"/>
       <outfile xil_pn:name="memoryInstTest.v"/>
+      <outfile xil_pn:name="regFileTest.v"/>
+      <outfile xil_pn:name="registerFile.v"/>
+      <outfile xil_pn:name="signExtend32.v"/>
+      <outfile xil_pn:name="signExtendTest.v"/>
     </transform>
-    <transform xil_pn:end_ts="1668879062" xil_pn:in_ck="1238320082851529608" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3356317525765602351" xil_pn:start_ts="1668879058">
+    <transform xil_pn:end_ts="1668897238" xil_pn:in_ck="1204165415660957955" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8222748893608812539" xil_pn:start_ts="1668897235">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
-      <outfile xil_pn:name="FetchTest_beh.prj"/>
-      <outfile xil_pn:name="FetchTest_isim_beh.exe"/>
+      <outfile xil_pn:name="decodeTest_beh.prj"/>
+      <outfile xil_pn:name="decodeTest_isim_beh.exe"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1668879734" xil_pn:in_ck="-5523838017489463163" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="215258484615673332" xil_pn:start_ts="1668879734">
+    <transform xil_pn:end_ts="1668897239" xil_pn:in_ck="2414756215586319565" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-8061060458308245432" xil_pn:start_ts="1668897238">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <outfile xil_pn:name="FetchTest_isim_beh.wdb"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="decodeTest_isim_beh.wdb"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
     </transform>
@@ -216,18 +243,11 @@
       <status xil_pn:value="FailedRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
-      <outfile xil_pn:name="FetchModule.lso"/>
-      <outfile xil_pn:name="FetchModule.ngc"/>
-      <outfile xil_pn:name="FetchModule.ngr"/>
-      <outfile xil_pn:name="FetchModule.prj"/>
-      <outfile xil_pn:name="FetchModule.syr"/>
-      <outfile xil_pn:name="FetchModule.xst"/>
-      <outfile xil_pn:name="FetchModule_xst.xrpt"/>
-      <outfile xil_pn:name="PC.ngr"/>
-      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="webtalk_pn.xml"/>
-      <outfile xil_pn:name="xst"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
     </transform>
     <transform xil_pn:end_ts="1668459264" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-5875137669252106190" xil_pn:start_ts="1668459264">
       <status xil_pn:value="SuccessfullyRun"/>

@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+signExtend32 instance_name (
+    .immPartInst(immPartInst), 
+    .signExt(signExt)
+    );
+
+
