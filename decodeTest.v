@@ -13,7 +13,7 @@ module decodeTest;
 	wire [31:0] signExtend;
 	wire [31:0] register1;
 	wire [31:0] register2;
-	wire [11:0] controlUnitSig;
+	wire [08:0] controlUnitSig;
 	wire [4:0] rd;
 	wire [4:0] rt;
 	wire [5:0] funcBits;

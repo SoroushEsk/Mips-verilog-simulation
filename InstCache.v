@@ -45,6 +45,11 @@ module InstCache(
 				hit = 1;
 			end // if end 
 			else begin
+				//if hit == 0 in that case cpu execute same instruction again so 
+				//in control unit I designed a noOpration instruction that executes 
+				//without changesing memory and registers 
+				// just opcode needed to be changed
+				inst = 32'b00001000000000000000000000000000;
 				hit  = 0;
 			end // else
 		end // always end block

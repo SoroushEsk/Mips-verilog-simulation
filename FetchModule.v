@@ -18,25 +18,30 @@ module FetchModule(
 		 .PC(pcWire_)
     );
  
+	wire [31:00] _pcOut;
 	PC pcReg (
     .dataInput(pcWire_), 
     .CLK(Clk), 
-    .dataOut(pcOut)
+    .dataOut(_pcOut)
     );
 	 
 	 wire [127:0] outOfMemory;
 	
 	 
 	 InstMemory instructionMem (
-    .address(pcOut), 
+    .address(_pcOut), 
     .CLk(Clk), 
     .instruction(outOfMemory) 
     );
 	 
 
-	 
+	 PCAdder pcadder (
+    .Pc(_pcOut), 
+    .PCPlus(pcOut)
+    );
+
 	 InstCache instCacheLevel1 (
-    .address(pcOut), 
+    .address(_pcOut), 
     .data(outOfMemory), 
     .Clk(Clk), 
     .inst(inst), 

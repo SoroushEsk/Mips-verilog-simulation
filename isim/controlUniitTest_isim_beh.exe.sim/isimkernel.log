@@ -1,0 +1,28 @@
+Command line:
+   controlUniitTest_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  9334
+
+Mon Dec 05 20:06:08 2022
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5153.92 Meg
+
+ Total Signals          : 42
+ Total Nets             : 40
+ Total Signal Drivers   : 26
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 28
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 126
+
+ Total Simulation Time: 0.15625 sec
+
+ Current Memory Usage: 4996.64 Meg
+
+Mon Dec 05 20:08:15 2022
+

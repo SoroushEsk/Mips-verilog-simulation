@@ -6,16 +6,16 @@ module decodeState(
 		output     [31:00]   signExtend,
 		output     [31:00]   register1,
 		output     [31:00]   register2,
-		output reg [11:00]   controlUnitSig,  // in case of adding control unit to the game
-		output reg [04:00]   rd, rt,
-		output reg [05:00]   funcBits         // alu control unit need these
+		output     [08:00]   controlUnitSig,  
+		output     [04:00]   rd, rt,
+		output     [05:00]   funcBits         // alu control unit need these
     );
 	 
 	 reg  [05:00]  opcode;
 	 reg  [04:00]  rs, shmnt;
 	 reg  [15:00]  immediate;
 	 
-
+	 
 	
 	 
 	 signExtend32 signExtended32bit (
@@ -36,6 +36,17 @@ module decodeState(
     .secondaryReg(register2)
     );
 
+	 controlUnit cu (
+    .opcode   (opcode), 
+    .RegDST   (controlUnitSig[8]), 
+    .ALUSrc   (controlUnitSig[7]), 
+    .MemToReg (controlUnitSig[6]), 
+    .RegWrite (controlUnitSig[5]), 
+    .MemRead  (controlUnitSig[4]), 
+    .MemWrite (controlUnitSig[3]), 
+    .branch   (controlUnitSig[2]), 
+    .AluOp    (controlUnitSig[1:0])
+    );
 
 	 // seperate instruction properties
 	 always @ (posedge Clk) begin

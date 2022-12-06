@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/controlUnit.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/controlUnit.syr" 
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/controlUnit.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/controlUnit.syr" 
+vhdtdtfi -lang verilog -prj ComputerArthitectureLab -o "G:/University/term5/Az memary/ComputerArthitectureLab/controlUnit.tfi" -lib work "G:/University/term5/Az memary/ComputerArthitectureLab//controlUnit.v" -module controlUnit -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
