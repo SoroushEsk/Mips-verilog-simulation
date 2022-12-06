@@ -22,6 +22,7 @@ module FetchModule(
 	PC pcReg (
     .dataInput(pcWire_), 
     .CLK(Clk), 
+	 .hit(hit),
     .dataOut(_pcOut)
     );
 	 

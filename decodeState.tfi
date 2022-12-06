@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+decodeState instance_name (
+    .instruction(instruction), 
+    .writeToReg(writeToReg), 
+    .Clk(Clk), 
+    .writeSig(writeSig), 
+    .signExtend(signExtend), 
+    .register1(register1), 
+    .register2(register2), 
+    .controlUnitSig(controlUnitSig), 
+    .rd(rd), 
+    .rt(rt), 
+    .funcBits(funcBits)
+    );
+
+

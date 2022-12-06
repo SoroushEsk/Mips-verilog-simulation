@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+IFIDRegister instance_name (
+    .nextPC(nextPC), 
+    .inst(inst), 
+    .Clk(Clk), 
+    .hit(hit), 
+    .outInst(outInst), 
+    .outNextPC(outNextPC)
+    );
+
+

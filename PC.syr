@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.26 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.27 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
  
 --> Reading design: PC.prj
 
@@ -189,7 +189,7 @@ Top Level Output File Name         : PC.ngc
 Primitive and Black Box Usage:
 ------------------------------
 # FlipFlops/Latches                : 32
-#      FDE                         : 32
+#      FDE_1                       : 32
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 65
@@ -253,7 +253,7 @@ Speed Grade: -3
 
    Minimum period: No path found
    Minimum input arrival time before clock: 0.482ns
-   Maximum output required time after clock: 0.640ns
+   Maximum output required time after clock: 0.643ns
    Maximum combinational path delay: No path found
 
 Timing Details:
@@ -265,16 +265,16 @@ Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
   Total number of paths / destination ports: 64 / 64
 -------------------------------------------------------------------------
 Offset:              0.482ns (Levels of Logic = 1)
-  Source:            writeSignal (PAD)
+  Source:            hit (PAD)
   Destination:       dataOut_0 (FF)
-  Destination Clock: CLK rising
+  Destination Clock: CLK falling
 
-  Data Path: writeSignal to dataOut_0
+  Data Path: hit to dataOut_0
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            32   0.001   0.386  writeSignal_IBUF (writeSignal_IBUF)
-     FDE:CE                    0.095          dataOut_0
+     IBUF:I->O            32   0.001   0.386  hit_IBUF (hit_IBUF)
+     FDE_1:CE                  0.095          dataOut_0
     ----------------------------------------
     Total                      0.482ns (0.096ns logic, 0.386ns route)
                                        (19.9% logic, 80.1% route)
@@ -283,20 +283,20 @@ Offset:              0.482ns (Levels of Logic = 1)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
   Total number of paths / destination ports: 32 / 32
 -------------------------------------------------------------------------
-Offset:              0.640ns (Levels of Logic = 1)
+Offset:              0.643ns (Levels of Logic = 1)
   Source:            dataOut_31 (FF)
   Destination:       dataOut<31> (PAD)
-  Source Clock:      CLK rising
+  Source Clock:      CLK falling
 
   Data Path: dataOut_31 to dataOut<31>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDE:C->Q              1   0.361   0.279  dataOut_31 (dataOut_31)
+     FDE_1:C->Q            1   0.364   0.279  dataOut_31 (dataOut_31)
      OBUF:I->O                 0.000          dataOut_31_OBUF (dataOut<31>)
     ----------------------------------------
-    Total                      0.640ns (0.361ns logic, 0.279ns route)
-                                       (56.4% logic, 43.6% route)
+    Total                      0.643ns (0.364ns logic, 0.279ns route)
+                                       (56.6% logic, 43.4% route)
 
 =========================================================================
 
@@ -306,12 +306,12 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 21.45 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 13.53 secs
  
 --> 
 
-Total memory usage is 4616516 kilobytes
+Total memory usage is 4616540 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

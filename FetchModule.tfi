@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+FetchModule instance_name (
+    .branchTarget(branchTarget), 
+    .Clk(Clk), 
+    .PCSrc(PCSrc), 
+    .nextPC(nextPC), 
+    .inst(inst), 
+    .pcOut(pcOut), 
+    .hit(hit)
+    );
+
+
