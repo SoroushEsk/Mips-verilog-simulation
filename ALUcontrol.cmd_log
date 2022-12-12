@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/ALUcontrol.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/ALUcontrol.syr" 
