@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Mux2NToN instance_name (
+    .zeroSource(zeroSource), 
+    .oneSource(oneSource), 
+    .select(select), 
+    .out(out)
+    );
+
+

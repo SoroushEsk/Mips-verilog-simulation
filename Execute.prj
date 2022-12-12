@@ -1,0 +1,5 @@
+verilog work "Mux2NToN.v"
+verilog work "ALUcontrol.v"
+verilog work "ALU.v"
+verilog work "Adder.v"
+verilog work "Execute.v"

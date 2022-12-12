@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+Adder instance_name (
+    .first(first), 
+    .second(second), 
+    .sum(sum)
+    );
+
+

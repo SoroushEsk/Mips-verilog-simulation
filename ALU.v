@@ -32,8 +32,9 @@ module ALU(
 	 endcase
 	 // for beq 
 	 if ( aluOut == 0 )
-			zero = 0;
-	 end
+			zero = 1;
+	 else zero = 0;
+	 end 
 
 
 endmodule

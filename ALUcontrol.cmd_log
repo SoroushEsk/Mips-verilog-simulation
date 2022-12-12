@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/ALUcontrol.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/ALUcontrol.syr" 
+vhdtdtfi -lang verilog -prj ComputerArthitectureLab -o "G:/University/term5/Az memary/ComputerArthitectureLab/ALUcontrol.tfi" -lib work "G:/University/term5/Az memary/ComputerArthitectureLab//ALUcontrol.v" -module ALUcontrol -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

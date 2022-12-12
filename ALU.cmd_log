@@ -1,3 +1,4 @@
 xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.syr" 
 xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.syr" 
 xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.syr" 
+vhdtdtfi -lang verilog -prj ComputerArthitectureLab -o "G:/University/term5/Az memary/ComputerArthitectureLab/ALU.tfi" -lib work "G:/University/term5/Az memary/ComputerArthitectureLab//ALU.v" -module ALU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
