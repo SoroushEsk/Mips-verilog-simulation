@@ -23,8 +23,8 @@ module ALU(
 			4'b0000    :	aluOut = inputA + inputB;											//add
 			4'b0001	  :	aluOut = inputA - inputB;											//sub
 			4'b0010    :	aluOut = ~inputA;														//not
-			4'b0011	  :	aluOut = {inputA[31-shamt:00], shiftZero[shamt-1:0]};		//lsl
-			4'b0100    :	aluOut = {shiftZero[shamt-1:00], inputA[31-shamt:00]};	//lsr
+			4'b0011	  :	aluOut = inputA << shamt;											//lsl
+			4'b0100    :	aluOut = inputA >> shamt;											//lsr
 			4'b0101	  :	aluOut = inputA & inputB;											//and
 			4'b0110    :	aluOut = inputA | inputB;											//or
 			4'b0111	  :	aluOut = (inputA < inputB) ? 1 : 0;								//slt
@@ -34,5 +34,6 @@ module ALU(
 	 if ( aluOut == 0 )
 			zero = 0;
 	 end
+
 
 endmodule

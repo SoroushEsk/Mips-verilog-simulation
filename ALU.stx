@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total CPU time to Xst completion: 0.50 secs
  
 --> Parameter xsthdpdir set to G:/University/term5/Az memary/ComputerArthitectureLab/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.28 secs
+Total CPU time to Xst completion: 0.51 secs
  
 --> Reading design: ALU.prj
 
@@ -41,15 +41,16 @@ TABLE OF CONTENTS
 =========================================================================
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" into library work
 Parsing module <ALU>.
-ERROR:HDLCompiler:44 - "G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" Line 26: shamt is not a constant
-ERROR:HDLCompiler:44 - "G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" Line 27: shamt is not a constant
-ERROR:HDLCompiler:598 - "G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" Line 2: Module <ALU> ignored due to previous errors.
-Verilog file G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v ignored due to errors
+
+
+Total REAL time to Xst completion: 11.00 secs
+Total CPU time to Xst completion: 11.07 secs
+ 
 --> 
 
 Total memory usage is 4494896 kilobytes
 
-Number of errors   :    3 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

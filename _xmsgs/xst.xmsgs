@@ -5,14 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="44" delta="old" >"G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" Line 26: <arg fmt="%s" index="1">shamt</arg> is not a constant
-</msg>
-
-<msg type="error" file="HDLCompiler" num="44" delta="old" >"G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" Line 27: <arg fmt="%s" index="1">shamt</arg> is not a constant
-</msg>
-
-<msg type="error" file="HDLCompiler" num="598" delta="old" >"G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" Line 2: Module &lt;<arg fmt="%s" index="1">ALU</arg>&gt; ignored due to previous errors.
-</msg>
-
 </messages>
 
