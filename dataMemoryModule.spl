@@ -1,0 +1,11 @@
+[Inputs]
+CLk
+writeMem
+=address[31:0]=
+=inputData[31:0]=
+[Outputs]
+=data[127:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel dataMemoryModule
+

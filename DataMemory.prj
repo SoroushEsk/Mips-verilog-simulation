@@ -1,0 +1,3 @@
+verilog work "dataMemoryModule.v"
+verilog work "dataMemoryCachelvl1.v"
+verilog work "DataMemory.v"

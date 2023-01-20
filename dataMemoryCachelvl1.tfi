@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+dataMemoryCachelvl1 instance_name (
+    .address(address), 
+    .inputData(inputData), 
+    .memoryInput(memoryInput), 
+    .Clk(Clk), 
+    .readMem(readMem), 
+    .writeMem(writeMem), 
+    .data(data), 
+    .hit(hit)
+    );
+
+

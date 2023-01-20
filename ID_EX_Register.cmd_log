@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "G:/University/term5/Az memary/ComputerArthitectureLab/ID_EX_Register.xst" -ofn "G:/University/term5/Az memary/ComputerArthitectureLab/ID_EX_Register.syr" 
+vhdtdtfi -lang verilog -prj ComputerArthitectureLab -o "G:/University/term5/Az memary/ComputerArthitectureLab/ID_EX_Register.tfi" -lib work "G:/University/term5/Az memary/ComputerArthitectureLab//ID_EX_Register.v" -module ID_EX_Register -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,26 @@
+
+
+
+// Instantiate the module
+ID_EX_Register instance_name (
+    .regInputA(regInputA), 
+    .regInputB(regInputB), 
+    .signExt(signExt), 
+    .nextPC(nextPC), 
+    .controlSig(controlSig), 
+    .Clk(Clk), 
+    .hit(hit), 
+    .rd(rd), 
+    .rt(rt), 
+    .funct(funct), 
+    .inputAOut(inputAOut), 
+    .inputBOut(inputBOut), 
+    .signExtOut(signExtOut), 
+    .nextPCOut(nextPCOut), 
+    .controlSigOut(controlSigOut), 
+    .rdOut(rdOut), 
+    .rtOut(rtOut), 
+    .functOut(functOut)
+    );
+
+

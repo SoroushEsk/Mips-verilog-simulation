@@ -13,11 +13,7 @@ module InstMemory(
 	 
 	 initial begin
 			counter = -1;
-			for(i = 0 ; i < 1024; i = i + 1) begin
-			
-				instructionMemory[i] = i[7:0];
-				
-			end
+			$readmemh("machineFile.txt",instructionMemory,0,1023);
 				instruction[7:0]      =    instructionMemory[0];
 				instruction[15:8]     =    instructionMemory[1];
 				instruction[23:16]    =    instructionMemory[2];

@@ -2,7 +2,7 @@ set -tmpdir "G:/University/term5/Az memary/ComputerArthitectureLab/xst/projnav.t
 set -xsthdpdir "G:/University/term5/Az memary/ComputerArthitectureLab/xst"
 run -compileonly yes
 -p xc7a100t-3-csg324
--top Execute
+-top dataMemoryModule
 -opt_mode Speed
 -opt_level 1
 -power NO
@@ -47,4 +47,4 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn Execute.prj
+-ifn dataMemoryModule.prj

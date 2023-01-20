@@ -3,16 +3,16 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to G:/University/term5/Az memary/ComputerArthitectureLab/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.32 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to G:/University/term5/Az memary/ComputerArthitectureLab/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.32 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
  
---> Reading design: Execute.prj
+--> Reading design: DataMemory.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,20 +39,16 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\Mux2NToN.v" into library work
-Parsing module <Mux2NToN>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\ALUcontrol.v" into library work
-Parsing module <ALUcontrol>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\ALU.v" into library work
-Parsing module <ALU>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\Adder.v" into library work
-Parsing module <Adder>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\Execute.v" into library work
-Parsing module <Execute>.
+Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" into library work
+Parsing module <dataMemoryModule>.
+Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryCachelvl1.v" into library work
+Parsing module <dataMemoryCachelvl1>.
+Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\DataMemory.v" into library work
+Parsing module <DataMemory>.
 
 
-Total REAL time to Xst completion: 17.00 secs
-Total CPU time to Xst completion: 16.36 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 12.67 secs
  
 --> 
 
