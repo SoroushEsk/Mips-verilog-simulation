@@ -136,6 +136,9 @@
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="InstructionMemory_envsettings.html"/>
     <file xil_pn:fileType="FILE_HTML" xil_pn:name="InstructionMemory_summary.html"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="InstructionMemory_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mem_Wb_register.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Mem_Wb_register.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="Mem_Wb_register.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Mux2NToN.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="Mux2NToN.stx"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="Mux2NToN.tfi"/>
@@ -213,6 +216,9 @@
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="signExtend32.tfi"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="signExtendTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="writeBack.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="writeBack.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="writeBack.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
