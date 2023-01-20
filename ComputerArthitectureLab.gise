@@ -57,6 +57,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="DataMemory.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="DataMemory.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="DataMemory.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="DataMemoryTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Execute.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Execute.lso"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Execute.ngc"/>
@@ -184,7 +185,10 @@
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="controlUnit.tfi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="controlUnit.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="controlUnit_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dataMemoryCachelvl1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dataMemoryCachelvl1.stx"/>
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="dataMemoryCachelvl1.tfi"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="dataMemoryCachelvl1.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dataMemoryModule.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="dataMemoryModule.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="dataMemoryModule.stx"/>
@@ -192,7 +196,6 @@
     <file xil_pn:fileType="FILE_VERILOG_INSTTEMPLATE" xil_pn:name="dataMemoryModule.tfi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="dataMemoryModule.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dataMemoryTest_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="dataMemoryTest_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="dataMemoryTest_isim_beh.wdb"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="dataMemoryTest_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="decodeState.prj"/>
@@ -228,21 +231,56 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1674215758" xil_pn:in_ck="4314615415011125821" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1674215758">
+    <transform xil_pn:end_ts="1674239250" xil_pn:in_ck="7450589354103972495" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1674239250">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALUTest.v"/>
+      <outfile xil_pn:name="ALUcontrol.v"/>
+      <outfile xil_pn:name="ALUcontrolTest.v"/>
+      <outfile xil_pn:name="Adder.v"/>
+      <outfile xil_pn:name="AdderTest.v"/>
+      <outfile xil_pn:name="DataMemory.v"/>
+      <outfile xil_pn:name="DataMemoryTest.v"/>
+      <outfile xil_pn:name="EXE_MEMRegister.v"/>
+      <outfile xil_pn:name="Execute.v"/>
+      <outfile xil_pn:name="ExecuteTEst.v"/>
+      <outfile xil_pn:name="FetchModule.v"/>
+      <outfile xil_pn:name="FetchTest.v"/>
+      <outfile xil_pn:name="ID_EX_Reg_Test.v"/>
+      <outfile xil_pn:name="ID_EX_Register.v"/>
+      <outfile xil_pn:name="IFIDRegister.v"/>
+      <outfile xil_pn:name="IFIDRegisterTest.v"/>
+      <outfile xil_pn:name="InstCache.v"/>
+      <outfile xil_pn:name="InstCacheTest.v"/>
+      <outfile xil_pn:name="InstMemory.v"/>
+      <outfile xil_pn:name="Mem_Wb_register.v"/>
+      <outfile xil_pn:name="MipsArthitecture.v"/>
+      <outfile xil_pn:name="Mux2NToN.v"/>
+      <outfile xil_pn:name="Mux2NtoNTest.v"/>
+      <outfile xil_pn:name="Mux64_32.v"/>
+      <outfile xil_pn:name="Mux64_32Test.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="PCAdder.v"/>
+      <outfile xil_pn:name="PCtest.v"/>
+      <outfile xil_pn:name="controlUniitTest.v"/>
+      <outfile xil_pn:name="controlUnit.v"/>
+      <outfile xil_pn:name="dataMemoryCachelvl1.v"/>
+      <outfile xil_pn:name="dataMemoryModule.v"/>
+      <outfile xil_pn:name="decodeState.v"/>
+      <outfile xil_pn:name="decodeTest.v"/>
+      <outfile xil_pn:name="memoryInstTest.v"/>
+      <outfile xil_pn:name="regFileTest.v"/>
+      <outfile xil_pn:name="registerFile.v"/>
+      <outfile xil_pn:name="signExtend32.v"/>
+      <outfile xil_pn:name="signExtendTest.v"/>
+      <outfile xil_pn:name="writeBack.v"/>
     </transform>
-    <transform xil_pn:end_ts="1674164710" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-5552552838117056278" xil_pn:start_ts="1674164710">
+    <transform xil_pn:end_ts="1674237461" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8277920072096842550" xil_pn:start_ts="1674237461">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1674164710" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="9152080399862618632" xil_pn:start_ts="1674164710">
+    <transform xil_pn:end_ts="1674237461" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="5873019367801652712" xil_pn:start_ts="1674237461">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
@@ -250,34 +288,71 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1674215758" xil_pn:in_ck="4314615415011125821" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1674215758">
+    <transform xil_pn:end_ts="1674239250" xil_pn:in_ck="7450589354103972495" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1674239250">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="ALU.v"/>
+      <outfile xil_pn:name="ALUTest.v"/>
+      <outfile xil_pn:name="ALUcontrol.v"/>
+      <outfile xil_pn:name="ALUcontrolTest.v"/>
+      <outfile xil_pn:name="Adder.v"/>
+      <outfile xil_pn:name="AdderTest.v"/>
+      <outfile xil_pn:name="DataMemory.v"/>
+      <outfile xil_pn:name="DataMemoryTest.v"/>
+      <outfile xil_pn:name="EXE_MEMRegister.v"/>
+      <outfile xil_pn:name="Execute.v"/>
+      <outfile xil_pn:name="ExecuteTEst.v"/>
+      <outfile xil_pn:name="FetchModule.v"/>
+      <outfile xil_pn:name="FetchTest.v"/>
+      <outfile xil_pn:name="ID_EX_Reg_Test.v"/>
+      <outfile xil_pn:name="ID_EX_Register.v"/>
+      <outfile xil_pn:name="IFIDRegister.v"/>
+      <outfile xil_pn:name="IFIDRegisterTest.v"/>
+      <outfile xil_pn:name="InstCache.v"/>
+      <outfile xil_pn:name="InstCacheTest.v"/>
+      <outfile xil_pn:name="InstMemory.v"/>
+      <outfile xil_pn:name="Mem_Wb_register.v"/>
+      <outfile xil_pn:name="MipsArthitecture.v"/>
+      <outfile xil_pn:name="Mux2NToN.v"/>
+      <outfile xil_pn:name="Mux2NtoNTest.v"/>
+      <outfile xil_pn:name="Mux64_32.v"/>
+      <outfile xil_pn:name="Mux64_32Test.v"/>
+      <outfile xil_pn:name="PC.v"/>
+      <outfile xil_pn:name="PCAdder.v"/>
+      <outfile xil_pn:name="PCtest.v"/>
+      <outfile xil_pn:name="controlUniitTest.v"/>
+      <outfile xil_pn:name="controlUnit.v"/>
+      <outfile xil_pn:name="dataMemoryCachelvl1.v"/>
+      <outfile xil_pn:name="dataMemoryModule.v"/>
+      <outfile xil_pn:name="decodeState.v"/>
+      <outfile xil_pn:name="decodeTest.v"/>
+      <outfile xil_pn:name="memoryInstTest.v"/>
+      <outfile xil_pn:name="regFileTest.v"/>
+      <outfile xil_pn:name="registerFile.v"/>
+      <outfile xil_pn:name="signExtend32.v"/>
+      <outfile xil_pn:name="signExtendTest.v"/>
+      <outfile xil_pn:name="writeBack.v"/>
     </transform>
-    <transform xil_pn:end_ts="1674215761" xil_pn:in_ck="4314615415011125821" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-266287091945447805" xil_pn:start_ts="1674215758">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1674215923" xil_pn:in_ck="1160201369604690112" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="2550133198407471014" xil_pn:start_ts="1674215922">
+    <transform xil_pn:end_ts="1674239254" xil_pn:in_ck="7450589354103972495" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="7457180858732315203" xil_pn:start_ts="1674239250">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="DataMemoryTest_isim_beh.exe"/>
+      <outfile xil_pn:name="dataMemoryTest_beh.prj"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1674239255" xil_pn:in_ck="-8716485110371786592" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="3954933380722892646" xil_pn:start_ts="1674239254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="dataMemoryTest_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
     </transform>
     <transform xil_pn:end_ts="1666168531" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1666168531">
       <status xil_pn:value="SuccessfullyRun"/>

@@ -1,5 +1,5 @@
 ISim log file
-Running: G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/University/term5/Az memary/ComputerArthitectureLab/dataMemoryTest_isim_beh.wdb 
+Running: G:\University\term5\Az memary\ComputerArthitectureLab\DataMemoryTest_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/University/term5/Az memary/ComputerArthitectureLab/DataMemoryTest_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
 Time resolution is 1 ps
@@ -7,1028 +7,159 @@ Time resolution is 1 ps
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
-13
-24
-56
-78
-94
-65
-46
-54
-65
-45
-45
-46
-54
-64
-56
-46
-45
-62
-31
-98
-43
-19
-75
-45
-78
-69
-36
-25
-41
-05
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
-xx
+ cache amount : 20000000f0e0d0c0b0a09080706050403020100       1
 time : 0 address :          0  counter : 0
 Finished circuit initialization process.
+time : 10000   address :          0    memoryInput : 0f0e0d0c0b0a09080706050403020100
+*******************  ,, cache : 20000000f0e0d0c0b0a09080706050403020100       1
+time : 20000 address :         56  counter : 1
+time : 30000   address :         56    memoryInput : 0f0e0d0c0b0a09080706050403020100
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 40000 address :         56  counter : 2
+time : 50000   address :         56    memoryInput : 0f0e0d0c0b0a09080706050403020100
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 60000 address :         56  counter : 3
+time : 70000   address :         56    memoryInput : 0f0e0d0c0b0a09080706050403020100
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 80000 address :         56  counter : 0
+ cache amount : 200000047464544434241403f3e3d3c3b3a3938       1
+time : 90000   address :         56    memoryInput : 47464544434241403f3e3d3c3b3a3938
+*******************  ,, cache : 200000047464544434241403f3e3d3c3b3a3938       1
+time : 100000 address :         57  counter : 1
+time : 110000   address :         57    memoryInput : 47464544434241403f3e3d3c3b3a3938
+*******************  ,, cache : 200000047464544434241403f3e3d3c3b3a3938       1
+time : 120000 address :         85  counter : 2
+time : 130000   address :         85    memoryInput : 47464544434241403f3e3d3c3b3a3938
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 140000 address :         85  counter : 3
+time : 150000   address :         85    memoryInput : 47464544434241403f3e3d3c3b3a3938
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 160000 address :         85  counter : 0
+ cache amount : 200000064636261605f5e5d5c5b5a5958575655       1
+time : 170000   address :         85    memoryInput : 64636261605f5e5d5c5b5a5958575655
+*******************  ,, cache : 200000064636261605f5e5d5c5b5a5958575655       1
+time : 180000 address :         68  counter : 1
+time : 190000   address :         68    memoryInput : 64636261605f5e5d5c5b5a5958575655
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 200000 address :         68  counter : 2
+time : 210000   address :         68    memoryInput : 64636261605f5e5d5c5b5a5958575655
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 220000 address :         68  counter : 3
+time : 230000   address :         68    memoryInput : 64636261605f5e5d5c5b5a5958575655
+*******************  ,, cache : 000000000000000000000000000000000000000       0
+time : 240000 address :         68  counter : 0
+ cache amount : 2000000535251504f4e4d4c4b4a4948000011ab       1
+time : 250000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c4b4a4948000011ab       1
+time : 260000 address :         68  counter : 1
+time : 270000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 280000 address :         68  counter : 2
+time : 290000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 300000 address :         68  counter : 3
+time : 310000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 320000 address :         68  counter : 0
+time : 330000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 340000 address :         68  counter : 1
+time : 350000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 360000 address :         68  counter : 2
+time : 370000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 380000 address :         68  counter : 3
+time : 390000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 400000 address :         68  counter : 0
+time : 410000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 420000 address :         68  counter : 1
+time : 430000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 440000 address :         68  counter : 2
+time : 450000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 460000 address :         68  counter : 3
+time : 470000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 480000 address :         68  counter : 0
+time : 490000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 500000 address :         68  counter : 1
+time : 510000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 520000 address :         68  counter : 2
+time : 530000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 540000 address :         68  counter : 3
+time : 550000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 560000 address :         68  counter : 0
+time : 570000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 580000 address :         68  counter : 1
+time : 590000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 600000 address :         68  counter : 2
+time : 610000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 620000 address :         68  counter : 3
+time : 630000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 640000 address :         68  counter : 0
+time : 650000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 660000 address :         68  counter : 1
+time : 670000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 680000 address :         68  counter : 2
+time : 690000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 700000 address :         68  counter : 3
+time : 710000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 720000 address :         68  counter : 0
+time : 730000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 740000 address :         68  counter : 1
+time : 750000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 760000 address :         68  counter : 2
+time : 770000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 780000 address :         68  counter : 3
+time : 790000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 800000 address :         68  counter : 0
+time : 810000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 820000 address :         68  counter : 1
+time : 830000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 840000 address :         68  counter : 2
+time : 850000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 860000 address :         68  counter : 3
+time : 870000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 880000 address :         68  counter : 0
+time : 890000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 900000 address :         68  counter : 1
+time : 910000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 920000 address :         68  counter : 2
+time : 930000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 940000 address :         68  counter : 3
+time : 950000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 960000 address :         68  counter : 0
+time : 970000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 980000 address :         68  counter : 1
+time : 990000   address :         68    memoryInput : 535251504f4e4d4c4b4a4948000011ab
+*******************  ,, cache : 2000000535251504f4e4d4c000011ab000011ab       1
+time : 1000000 address :         68  counter : 2

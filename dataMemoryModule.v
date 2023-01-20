@@ -14,7 +14,7 @@ module dataMemoryModule(
 	 initial begin
 			counter = -1;
 			for ( i = 0 ; i < 1023 ; i = i+1) begin 
-				dataMemory[i]  =    i[22:15];
+				dataMemory[i]  =    i[7:0];
 			
 			end 
 				data[7:0]      =    dataMemory[0];
@@ -38,16 +38,14 @@ module dataMemoryModule(
 				data[127:120]  =    dataMemory[15];
 	 end
 		
-	 always @ (posedge CLk ) begin
-		if(writeMem) begin 
+
+	 always @ (negedge CLk ) begin
+			if(writeMem) begin 
 				dataMemory[address]        =    inputData[7:0] ; 
 				dataMemory[address + 1]    =    inputData[15:8] ;
 				dataMemory[address + 2]    =    inputData[23:16];
 				dataMemory[address + 3]    =    inputData[31:24];		
-				end
-		
-	 end
-	 always @ (negedge CLk ) begin
+			end
 				counter = counter + 1;
 			if ( counter == 4 )
 				counter = 0;

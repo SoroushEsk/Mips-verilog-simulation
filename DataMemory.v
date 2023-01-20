@@ -4,7 +4,7 @@ module DataMemory(input [31:00] address, data,
                   input clk,
                   input dataRead, dataWrite,
                   output[31:00] outData,
-						output reg hit
+						output hit
     );
 	 
 	wire [127:000] memoryInput;
@@ -22,12 +22,12 @@ module DataMemory(input [31:00] address, data,
 		 
 	dataMemoryCachelvl1 dataCache (
     .address(address), 
-    .inputData(inputData), 
+    .inputData(data), 
     .memoryInput(memoryInput), 
     .Clk(clk), 
     .readMem(dataRead), 
     .writeMem(dataWrite), 
-    .data(data), 
+    .data(outData), 
     .hit(hit)
     );
 

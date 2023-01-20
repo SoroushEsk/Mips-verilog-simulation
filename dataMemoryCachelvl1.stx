@@ -3,16 +3,16 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to G:/University/term5/Az memary/ComputerArthitectureLab/xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Parameter xsthdpdir set to G:/University/term5/Az memary/ComputerArthitectureLab/xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.23 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
  
---> Reading design: FetchModule.prj
+--> Reading design: dataMemoryCachelvl1.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,20 +39,12 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" into library work
-Parsing module <PCAdder>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\PC.v" into library work
-Parsing module <PC>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\InstMemory.v" into library work
-Parsing module <InstMemory>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\InstCache.v" into library work
-Parsing module <InstCache>.
-Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" into library work
-Parsing module <FetchModule>.
+Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryCachelvl1.v" into library work
+Parsing module <dataMemoryCachelvl1>.
 
 
-Total REAL time to Xst completion: 18.00 secs
-Total CPU time to Xst completion: 17.99 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.00 secs
  
 --> 
 

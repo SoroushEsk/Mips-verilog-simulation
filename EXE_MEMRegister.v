@@ -2,13 +2,13 @@
 
 module EXE_MEMRegister(
 								input clk, hit,
-								input  [4:0] rd
+								input  [4:0] rd,
 								input  [31:00] ALUReasult, readData2,
 								input  [8:0] controlSig,
 								
 								output reg [8:0] controlSigOut,
 								output reg [4:0] rdOut,
-								output reg [31:00] ALUReasultOut, readData2Out,
+								output reg [31:00] ALUReasultOut, readData2Out
 								
     );	
 	 initial begin 
