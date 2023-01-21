@@ -49,7 +49,6 @@ module dataMemoryModule(
 				counter = counter + 1;
 			if ( counter == 4 )
 				counter = 0;
-			$display("time : %0t address : %d  counter : %d" , $time , address , counter);
 			if (counter == 0) begin 
 			
 				data[7:0]      =    dataMemory[address];
@@ -73,5 +72,9 @@ module dataMemoryModule(
 				data[127:120]  =    dataMemory[address + 15];
 				
 			end
+	end
+	always @ ( dataMemory ) begin
+		$display ( "time : %t" , $time);
+		$display ("Memory : %x" , dataMemory[address]);
 	end
 endmodule

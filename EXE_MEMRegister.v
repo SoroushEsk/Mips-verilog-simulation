@@ -25,5 +25,5 @@ module EXE_MEMRegister(
 			ALUReasultOut  = ALUReasult;
 			readData2Out	= readData2;
 		end
-		
+	end
 endmodule

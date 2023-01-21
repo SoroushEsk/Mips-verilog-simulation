@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+Execute instance_name (
+    .inputA(inputA), 
+    .inputB(inputB), 
+    .immediate(immediate), 
+    .nextPC(nextPC), 
+    .shamt(shamt), 
+    .funct(funct), 
+    .ALUop(ALUop), 
+    .ALUSrc(ALUSrc), 
+    .result(result), 
+    .zero(zero), 
+    .addResult(addResult)
+    );
+
+

@@ -41,8 +41,7 @@ module InstMemory(
 	 			counter = counter + 1;
 			if ( counter == 4 )
 				counter = 0;
-			$display("time : %0t address : %d  counter : %d" , $time , address , counter);
-			if (counter == 0) begin 
+				if (counter == 0) begin 
 			
 				instruction[7:0]      =    instructionMemory[address];
 				instruction[15:8]     =    instructionMemory[address + 1];

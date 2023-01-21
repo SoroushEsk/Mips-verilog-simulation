@@ -17,8 +17,8 @@ module IFIDRegister(
 	 always @ (negedge Clk) begin
 			
 			if ( hit != 0 ) begin
-				outInst     =     nextPC;
-				outNextPC   =    inst;
+				outInst     =     inst;
+				outNextPC   =    nextPC;
 			end
 	 end
 	 

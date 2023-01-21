@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+EXE_MEMRegister instance_name (
+    .clk(clk), 
+    .hit(hit), 
+    .rd(rd), 
+    .ALUReasult(ALUReasult), 
+    .readData2(readData2), 
+    .controlSig(controlSig), 
+    .controlSigOut(controlSigOut), 
+    .rdOut(rdOut), 
+    .ALUReasultOut(ALUReasultOut), 
+    .readData2Out(readData2Out)
+    );
+
+

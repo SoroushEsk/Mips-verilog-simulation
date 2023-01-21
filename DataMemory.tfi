@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+DataMemory instance_name (
+    .address(address), 
+    .data(data), 
+    .clk(clk), 
+    .dataRead(dataRead), 
+    .dataWrite(dataWrite), 
+    .outData(outData), 
+    .hit(hit)
+    );
+
+

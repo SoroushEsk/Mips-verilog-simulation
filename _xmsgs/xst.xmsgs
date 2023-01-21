@@ -5,5 +5,80 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompiler" num="991" delta="old" >"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 37: Event expressions must result in a singular type
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="991" delta="old" >"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 76: Event expressions must result in a singular type
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1670" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\InstMemory.v" Line 16: Signal &lt;<arg fmt="%s" index="1">instructionMemory</arg>&gt; in initial block is partially initialized.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\InstMemory.v" Line 41: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" Line 6: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" Line 6: Assignment to <arg fmt="%s" index="1">pCPlus</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" Line 2: Empty module &lt;<arg fmt="%s" index="1">PCAdder</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 42: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">Pc</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 43: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PCPlus</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\InstCache.v" Line 25: Signal &lt;<arg fmt="%s" index="1">address</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1625" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 56: Canot display values larger than 32 bits in h/d/o/x format
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 73: Assignment to <arg fmt="%s" index="1">opcode</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\Execute.v" Line 20: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ALUControl</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\Execute.v" Line 37: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">AluControl</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 109: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ALUop</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">2</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 111: Assignment to <arg fmt="%s" index="1">ALUResult</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 116: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 122: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">rd</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 123: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">ALUReasult</arg>&gt;. Formal port size is <arg fmt="%d" index="2">32</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 49: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 78: Signal &lt;<arg fmt="%s" index="1">address</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryCachelvl1.v" Line 24: Signal &lt;<arg fmt="%s" index="1">address</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryCachelvl1.v" Line 22: Signal <arg fmt="%s" index="1">cacheLevel1[7][127]</arg> in unit <arg fmt="%s" index="2">dataMemoryCachelvl1</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryCachelvl1.v" Line 3: Empty module &lt;<arg fmt="%s" index="1">dataMemoryCachelvl1</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 123: Net &lt;<arg fmt="%s" index="1">ALUReasult</arg>&gt; does not have a driver.
+</msg>
+
 </messages>
 

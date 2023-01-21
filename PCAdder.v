@@ -1,9 +1,9 @@
 `timescale 1ns / 1ps
 module PCAdder(
-	input  Pc,
-	output PCPlus
+	input [31:00] Pc,
+	output [31:00] PCPlus
     );
-	 assign pCPlus = Pc + 4;
+	 assign PCPlus = Pc + 4;
 
 
 endmodule

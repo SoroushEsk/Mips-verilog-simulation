@@ -26,13 +26,10 @@ module InstCache(
 			cacheLevel1[preAddress[6:4]][127:0]   = data;
 			cacheLevel1[preAddress[6:4]][152:128] = preAddress[31:7];
 			cacheLevel1[preAddress[6:4]][153]     = 1'b1;
-			$display ( " cache amount : %H       %H" , cacheLevel1[preAddress[6:4]],			cacheLevel1[preAddress[6:4]][153]      );
 		end // changing cache amount end
 
 			
 		always @ (posedge Clk) begin
-			$display ( "time : %0t   address : %d    data : %h", $time , address , data);
-			$display ( "*******************  ,, cache : %H       %h" , cacheLevel1[address[6:4]],cacheLevel1[address[6:4]][153]);
 			if( cacheLevel1[address[6:4]][152:128] == address[31:7] && cacheLevel1[address[6:4]][153] == 1) begin
 				// check offset
 				case(address[3:2])

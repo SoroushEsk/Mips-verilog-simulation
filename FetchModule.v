@@ -4,21 +4,24 @@ module FetchModule(
 			input [31:0] branchTarget,
 			input Clk,
 			input PCSrc,
-			input  [31:0] nextPC,
 			output [31:0] inst,
 			output [31:0] pcOut,
 			output  hit
     );
 
 	wire [31:0] pcWire_;
-	Mux64_32 muxPc (
-		 .pcPlusFour(nextPC), 
+
+	wire [31:00] _pcOut;
+	
+	
+	Mux64_32new muxPc (
+		 .pcPlusFour(pcOut), 
 		 .jumpAmount(branchTarget), 
 		 .select(PCSrc), 
 		 .PC(pcWire_)
     );
  
-	wire [31:00] _pcOut;
+	
 	PC pcReg (
     .dataInput(pcWire_), 
     .CLK(Clk), 
@@ -49,11 +52,7 @@ module FetchModule(
     .hit(hit)
     );
 
-	 always @ (posedge Clk) begin 
 
-		$display ("time : %0t t instMem : %h ", $time  , outOfMemory );
-		
-	 end
 
 	 
  

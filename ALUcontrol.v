@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 module ALUcontrol(
-		input  [2:0] ALUop,
+		input  [1:0] ALUop,
 		input  [5:0] func,
 		output reg [3:0] ALUControl
 		
@@ -10,7 +10,7 @@ module ALUcontrol(
 	// Going with always and if statement
 	 always @ (*) begin
 		
-		if (ALUop == 3'b000)  begin				  // Rtype
+		if (ALUop == 3'b00)  begin				  // Rtype
 		
 			case ( func ) 
 				6'b000000 : ALUControl = 4'b0000;  // Add
@@ -23,15 +23,15 @@ module ALUcontrol(
 				6'b000111 : ALUControl = 4'b0001;  // Not	
 			endcase
 			
-		end else if ( ALUop == 3'b001)begin		  //beq
+		end else if ( ALUop == 3'b01)begin		  //beq
 		
 				ALUControl = 4'b0001;				  // Sub
 				
-		end else if ( ALUop == 3'b010 ) begin	  // slti
+		end else if ( ALUop == 3'b10 ) begin	  // slti
 		
 				ALUControl = 4'b0111; 				  // Slt
 				
-		end else if ( ALUop == 3'b011 ) begin	  // addi , lw , sw
+		end else if ( ALUop == 3'b11 ) begin	  // addi , lw , sw
 		
 				ALUControl = 4'b0000; 				  // Add
 		end 

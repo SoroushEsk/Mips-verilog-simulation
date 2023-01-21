@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+Mem_Wb_register instance_name (
+    .clk(clk), 
+    .hit(hit), 
+    .controlSig(controlSig), 
+    .readReg2(readReg2), 
+    .ALUReasult(ALUReasult), 
+    .rd(rd), 
+    .controlSigOut(controlSigOut), 
+    .readReg2Out(readReg2Out), 
+    .ALUReasultOut(ALUReasultOut), 
+    .rdOut(rdOut)
+    );
+
+

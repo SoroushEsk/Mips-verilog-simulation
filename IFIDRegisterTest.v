@@ -29,40 +29,40 @@ module IFIDRegisterTest;
 		Clk = 0;
 		hit = 0;
 
-		#20;
+		#35;
         
 		nextPC = 8;
 		inst = 456;
 		hit = 1;
 		
-		#20;
+		#40;
 		
 		nextPC = 54;
 		inst = 456;
 
 		
-		#20;
+		#40;
 		nextPC = 798;
 		inst =1354;
 
 		
-		#20;
+		#40;
 		nextPC = 7489;
 		inst = 465;
 
 		
-		#20;
+		#40;
 		hit = 0;
 		nextPC = 7894;
 		inst = 54;
 
 		
-		#20;
+		#40;
 		nextPC = 0;
 		inst = 0;
 
 		
-		#20;		
+		#40;		
 		hit = 1;
 		nextPC = 765164;
 		inst = 5448948;

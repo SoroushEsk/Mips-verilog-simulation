@@ -4,7 +4,7 @@ module Execute(
 			input  [31:00]	inputA, inputB, immediate, nextPC,  // we need pc for calculating branck target
 			input  [04:00] shamt,
 			input  [05:00] funct,
-			input  [02:00] ALUop,
+			input  [01:00] ALUop,
 			input 			ALUSrc,
 			
 			output [31:00] result,
@@ -12,7 +12,7 @@ module Execute(
 			output [31:00] addResult			
     );
 	 
-	 wire [31:00] ALUControl;
+	 wire [3:00] ALUControl;
 	
 	 ALUcontrol ALUCntrl (
     .ALUop(ALUop), 
@@ -30,7 +30,6 @@ module Execute(
     .select(ALUSrc), 
     .out(secondInput)
     );
-
 	 ALU MainALU (
     .inputA(inputA), 
     .inputB(secondInput), 

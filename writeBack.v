@@ -6,6 +6,6 @@ module writeBack(
 						output [31:00] registerWrite
     );
 		
-		assign registerWrite = memToReg ? readReg2 : memoryOut;
+		assign registerWrite = memToReg ? memoryOut  : readReg2;
 
 endmodule

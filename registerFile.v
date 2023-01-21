@@ -14,7 +14,7 @@ module registerFile(
 	// giving registers initial amount right now instead of zero giving them their number
 	integer index ;
 	initial begin 
-		for (index = 0 ; index < 32 ; index = index + 1)  registers[index] = index;
+		for (index = 0 ; index < 32 ; index = index + 1)  registers[index] = 0;
 	end
 	
 	// not depend on clk 
@@ -22,7 +22,7 @@ module registerFile(
 	assign secondaryReg =  registers[rt];
 	
 	// just setting register need pos edge of clk
-	always @ (posedge Clk) begin 
+	always @ (negedge Clk) begin 
 		
 		if(writeSig) begin
 			
@@ -31,8 +31,17 @@ module registerFile(
 				registers[rd]	=  writeData;
 				 
 			end
-		end
+		end		
+		$display("time: %t" , $time);
+		$display("Register%d : %x",00 , registers[00]);
+		$display("Register%d : %x",01 , registers[01]);
+		$display("Register%d : %x",02 , registers[02]);
+		$display("Register%d : %x",03 , registers[03]);
+		$display("Register%d : %x",04 , registers[04]);
+		$display("Register%d : %x",05 , registers[05]);
+		$display("Register%d : %x",06 , registers[06]);
+		$display("Register%d : %x",07 , registers[07]);
 	end
 	
-
+	
 endmodule

@@ -27,10 +27,7 @@ module FetchTest;
 	// Inputs
 	reg [31:0] branchTarget;
 	reg Clk;
-	reg PCSrc;
-	reg [31:0] nextPC;
-
-	// Outputs
+	reg PCSrc;	// Outputs
 	wire [31:0] inst;
 	wire [31:0] pcOut;
 	wire hit;
@@ -38,8 +35,7 @@ module FetchTest;
 	FetchModule uut (
 		.branchTarget(branchTarget), 
 		.Clk(Clk), 
-		.PCSrc(PCSrc), 
-		.nextPC(nextPC), 
+		.PCSrc(PCSrc),  
 		.inst(inst), 
 		.pcOut(pcOut), 
 		.hit(hit)
@@ -50,7 +46,7 @@ module FetchTest;
 		branchTarget = 0;
 		Clk = 0;
 		PCSrc = 0;
-		nextPC = 0;
+
 
 		// Wait 100 ns for global reset to finish
 		#10;
@@ -63,8 +59,7 @@ module FetchTest;
 		#10;
 		Clk <= ~Clk; 
 	end
-	always @ (posedge Clk)
-		nextPC <= nextPC + 4;
+	
 endmodule
 
 

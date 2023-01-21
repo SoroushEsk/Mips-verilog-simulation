@@ -1,5 +1,0 @@
-verilog work "dataMemoryModule.v"
-verilog work "dataMemoryCachelvl1.v"
-verilog work "DataMemory.v"
-verilog work "DataMemoryTest.v"
-verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

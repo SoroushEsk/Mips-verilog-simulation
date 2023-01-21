@@ -1,21 +1,29 @@
 `timescale 1ns / 1ps
 
 module decodeState(
-		input      [31:00]   instruction, writeToReg,
+		input    [31:00]   instruction, writeToReg,
 		input    			   Clk, writeSig,
-		output     [31:00]   signExtend,
-		output     [31:00]   register1,
-		output     [31:00]   register2,
-		output     [08:00]   controlUnitSig,  
-		output     [04:00]   rd, rt,
-		output     [05:00]   funcBits         // alu control unit need these
+		input 	[04:00]   finRD,
+		output      [31:00]   signExtend,
+		output 	   [31:00]   register1,
+		output 	   [31:00]   register2,
+		output 	   [08:00]   controlUnitSig,  
+		output reg  [04:00]   rd, rt, shmnt,
+		output reg  [05:00]   funcBits, opcode         // alu control unit need these
     );
 	 
-	 reg  [05:00]  opcode;
-	 reg  [04:00]  rs, shmnt;
+	 reg  [04:00]  rs;
 	 reg  [15:00]  immediate;
 	 
-	 
+	 initial begin 
+		rs = 0;
+		immediate = 0;
+		rd = 0;
+		rt = 0;
+		shmnt = 0;
+		funcBits = 0;
+		opcode = 0;
+	end
 	
 	 
 	 signExtend32 signExtended32bit (
@@ -28,7 +36,7 @@ module decodeState(
 	 registerFile mipsRegFile (
     .rs(rs), 
     .rt(rt), 
-    .rd(rd), 
+    .rd(finRD), 
     .writeSig(writeSig), 
     .Clk(Clk), 
     .writeData(writeToReg), 

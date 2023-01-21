@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+writeBack instance_name (
+    .memoryOut(memoryOut), 
+    .readReg2(readReg2), 
+    .memToReg(memToReg), 
+    .registerWrite(registerWrite)
+    );
+
+
