@@ -9,1113 +9,6 @@ Time resolution is 1 ps
 Simulator is doing circuit initialization process.
 time :                    0
 Memory : 00
-Finished circuit initialization process.
-time :                10000
-alu result : 00000000
-write reg :00000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000004
-branch : 00000000
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:                10000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 00000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :                30000
-alu result : 00000000
-write reg :00000000
-inst : 1c220017  if_id : 1c220017     sign : 00000000
-pc : 00000008
-branch : 00000000
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:                30000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 00000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :                50000
-alu result : 00000017
-write reg :00000000
-inst : 00000000  if_id : 00000000     sign : 00000017
-pc : 0000000c
-branch : 00000060
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:                50000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 00000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :                70000
-alu result : 00000000
-write reg :00000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000010
-branch : 00000008
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000017
-00000000 
-0
-================================================================
-time:                70000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 00000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :                90000
-alu result : 00000000
-write reg :08000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000014
-branch : 0000000c
-pcsrc : 0
-hit : 1
-regWrite = 0
-02    00000000
-00000000 
-0
-================================================================
-time:                90000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               110000
-alu result : 00000000
-write reg :08000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000018
-branch : 00000010
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               110000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               130000
-alu result : 00000000
-write reg :08000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 0000001c
-branch : 00000014
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               130000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               150000
-alu result : 00000000
-write reg :08000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000020
-branch : 00000018
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               150000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               170000
-alu result : 00000000
-write reg :08000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 1
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               170000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               190000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               190000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               210000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               210000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               230000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               230000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               250000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               250000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               270000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               270000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               290000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               290000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               310000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               310000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               330000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               330000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               350000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               350000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               370000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               370000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               390000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               390000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               410000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               410000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               430000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               430000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               450000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               450000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               470000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               470000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               490000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               490000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               510000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               510000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               530000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               530000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               550000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               550000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               570000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               570000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               590000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               590000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               610000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               610000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               630000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               630000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               650000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               650000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               670000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               670000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               690000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               690000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               710000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               710000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               730000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               730000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               750000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               750000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               770000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               770000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               790000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               790000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               810000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               810000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               830000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               830000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               850000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               850000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               870000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               870000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               890000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               890000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               910000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               910000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               930000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               930000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               950000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               950000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               970000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               970000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-time :               990000
-alu result : 00000000
-write reg :08000000
-inst : 08000000  if_id : 00000000     sign : 00000000
-pc : 00000024
-branch : 0000001c
-pcsrc : 0
-hit : 0
-regWrite = 0
-00    00000000
-00000000 
-0
-================================================================
-time:               990000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-ISim P.20131013 (signature 0x7708f090)
-This is a Full version of ISim.
-# run 1000 ns
-Simulator is doing circuit initialization process.
-time :                    0
-Memory : 00
 time:                    0
 Register          0 : 00000000
 Register          1 : 00000000
@@ -1136,7 +29,7 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:                20000
@@ -1158,7 +51,7 @@ pcsrc : 0
 hit : 1
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:                40000
@@ -1173,14 +66,14 @@ Register          7 : 00000000
 time :                50000
 alu result : 00000017
 write reg :00000000
-inst : 00000000  if_id : 00000000     sign : 00000017
+inst : 1c63ffff  if_id : 1c63ffff     sign : 00000017
 pc : 0000000c
 branch : 00000060
 pcsrc : 0
 hit : 1
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:                60000
@@ -1193,16 +86,16 @@ Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :                70000
-alu result : 00000000
+alu result : ffffffff
 write reg :00000000
-inst : 00000000  if_id : 00000000     sign : 00000000
+inst : 00000000  if_id : 00000000     sign : ffffffff
 pc : 00000010
-branch : 00000008
+branch : 00000004
 pcsrc : 0
 hit : 1
 regWrite = 0
 00    00000017
-00000000 
+00000000      00000000
 0
 ================================================================
 time:                80000
@@ -1216,21 +109,21 @@ Register          6 : 00000000
 Register          7 : 00000000
 time :                90000
 alu result : 00000000
-write reg :08000000
+write reg :00000017
 inst : 00000000  if_id : 00000000     sign : 00000000
 pc : 00000014
 branch : 0000000c
 pcsrc : 0
 hit : 1
 regWrite = 0
-02    00000000
-00000000 
+02    ffffffff
+00000017      00000017
 0
 ================================================================
 time:               100000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
+Register          2 : 00000017
 Register          3 : 00000000
 Register          4 : 00000000
 Register          5 : 00000000
@@ -1238,29 +131,29 @@ Register          6 : 00000000
 Register          7 : 00000000
 time :               110000
 alu result : 00000000
-write reg :08000000
+write reg :ffffffff
 inst : 00000000  if_id : 00000000     sign : 00000000
 pc : 00000018
 branch : 00000010
 pcsrc : 0
 hit : 1
 regWrite = 0
-00    00000000
-00000000 
+03    00000000
+ffffffff      ffffffff
 0
 ================================================================
 time:               120000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               130000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 00000000  if_id : 00000000     sign : 00000000
 pc : 0000001c
 branch : 00000014
@@ -1268,21 +161,21 @@ pcsrc : 0
 hit : 1
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               140000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               150000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 00000000  if_id : 00000000     sign : 00000000
 pc : 00000020
 branch : 00000018
@@ -1290,21 +183,21 @@ pcsrc : 0
 hit : 1
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               160000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               170000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 00000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1312,21 +205,21 @@ pcsrc : 0
 hit : 1
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               180000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               190000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1334,21 +227,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               200000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               210000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1356,21 +249,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               220000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               230000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1378,21 +271,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               240000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               250000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1400,21 +293,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               260000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               270000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1422,21 +315,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               280000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               290000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1444,21 +337,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               300000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               310000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1466,21 +359,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               320000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               330000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1488,21 +381,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               340000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               350000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1510,21 +403,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               360000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               370000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1532,21 +425,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               380000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               390000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1554,21 +447,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               400000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               410000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1576,21 +469,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               420000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               430000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1598,21 +491,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               440000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               450000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1620,21 +513,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               460000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               470000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1642,21 +535,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               480000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               490000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1664,21 +557,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               500000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               510000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1686,21 +579,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               520000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               530000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1708,21 +601,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               540000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               550000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1730,21 +623,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               560000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               570000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1752,21 +645,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               580000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               590000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1774,21 +667,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               600000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               610000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1796,21 +689,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               620000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               630000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1818,21 +711,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               640000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               650000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1840,21 +733,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               660000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               670000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1862,21 +755,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               680000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               690000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1884,21 +777,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               700000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               710000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1906,21 +799,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               720000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               730000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1928,21 +821,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               740000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               750000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1950,21 +843,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               760000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               770000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1972,21 +865,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               780000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               790000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -1994,21 +887,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               800000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               810000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2016,21 +909,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               820000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               830000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2038,21 +931,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               840000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               850000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2060,21 +953,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               860000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               870000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2082,21 +975,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               880000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               890000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2104,21 +997,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               900000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               910000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2126,21 +1019,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               920000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               930000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2148,21 +1041,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               940000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               950000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2170,21 +1063,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               960000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               970000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2192,21 +1085,21 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:               980000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 time :               990000
 alu result : 00000000
-write reg :08000000
+write reg :00000000
 inst : 08000000  if_id : 00000000     sign : 00000000
 pc : 00000024
 branch : 0000001c
@@ -2214,14 +1107,14 @@ pcsrc : 0
 hit : 0
 regWrite = 0
 00    00000000
-00000000 
+00000000      00000000
 0
 ================================================================
 time:              1000000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 08000000
-Register          3 : 00000000
+Register          2 : 00000017
+Register          3 : ffffffff
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000

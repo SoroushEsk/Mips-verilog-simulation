@@ -166,8 +166,8 @@ module MipsArthitecture(input Clk,
 	
 
 	writeBack memToReg64_32_MuX (
-		 .memoryOut(MEM_WBALUResult), 
-		 .readReg2(MEM_WBMemoryOut), 
+		 .memoryOut(MEM_WBMemoryOut), 
+		 .readReg2(MEM_WBALUResult), 
 		 .memToReg(MEM_WBControlSig[6]), 
 		 .registerWrite(writeDataToReg)
     );
@@ -184,7 +184,7 @@ module MipsArthitecture(input Clk,
 		$display("hit : %x" , hit);
 		$display("regWrite = %x", MEM_WBControlSig[3]);
 		$display("%x    %x" ,MEM_WBRd,EXE_MEMResult);
-		$display("%x " ,ID_EXEReg1);		
+		$display("%x      %x" ,writeDataToReg,MEM_WBALUResult);		
 		$display("%x" ,MEM_WBControlSig[6]);	
 		$display("================================================================");
 	

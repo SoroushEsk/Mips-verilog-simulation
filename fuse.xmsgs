@@ -11,8 +11,5 @@
 <msg type="warning" file="HDLCompiler" num="991" delta="unknown" >"G:/University/term5/Az memary/ComputerArthitectureLab/dataMemoryModule.v" Line 76: Event expressions must result in a singular type
 </msg>
 
-<msg type="error" file="Simulator" num="904" delta="unknown" >Unable to remove previous simulation file <arg fmt="%s" index="1">G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_isim_beh.exe</arg>. Please check if you have another instance of this simulation running on your system, terminate it and then recompile your design. System Error Message: <arg fmt="%s" index="2">boost::filesystem::remove: Access is denied: &quot;G:\University\term5\Az memary\ComputerArthitectureLab\finalTest_isim_beh.exe&quot;</arg>
-</msg>
-
 </messages>
 
