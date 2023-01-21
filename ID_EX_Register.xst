@@ -1,9 +1,6 @@
-set -tmpdir "xst/projnav.tmp"
-set -xsthdpdir "xst"
-run
--ifn ID_EX_Register.prj
--ofn ID_EX_Register
--ofmt NGC
+set -tmpdir "G:/University/term5/Az memary/ComputerArthitectureLab/xst/projnav.tmp"
+set -xsthdpdir "G:/University/term5/Az memary/ComputerArthitectureLab/xst"
+run -compileonly yes
 -p xc7a100t-3-csg324
 -top ID_EX_Register
 -opt_mode Speed
@@ -50,3 +47,4 @@ run
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
+-ifn ID_EX_Register.prj

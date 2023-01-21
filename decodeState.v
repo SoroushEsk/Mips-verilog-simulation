@@ -8,11 +8,10 @@ module decodeState(
 		output 	   [31:00]   register1,
 		output 	   [31:00]   register2,
 		output 	   [08:00]   controlUnitSig,  
-		output reg  [04:00]   rd, rt, shmnt,
+		output reg  [04:00]   rd, rt,rs, shmnt,
 		output reg  [05:00]   funcBits, opcode         // alu control unit need these
     );
 	 
-	 reg  [04:00]  rs;
 	 reg  [15:00]  immediate;
 	 
 	 initial begin 

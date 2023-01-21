@@ -1,4 +1,4 @@
-Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_isim_beh.exe" -prj "G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_beh.prj" "work.finalTest" "work.glbl" 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_isim_beh.exe -prj G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_beh.prj work.finalTest work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
@@ -23,6 +23,7 @@ Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/wr
 Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/Mem_Wb_register.v" into library work
 Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/IFIDRegister.v" into library work
 Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/ID_EX_Register.v" into library work
+Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/forwading.v" into library work
 Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/FetchModule.v" into library work
 Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/EXE_MEMRegister.v" into library work
 Analyzing Verilog file "G:/University/term5/Az memary/ComputerArthitectureLab/Execute.v" into library work
@@ -50,6 +51,7 @@ Compiling module Mux2NToN
 Compiling module ALU
 Compiling module Adder
 Compiling module Execute
+Compiling module forwading
 Compiling module EXE_MEMRegister
 Compiling module dataMemoryModule
 Compiling module dataMemoryCachelvl1
@@ -60,8 +62,8 @@ Compiling module MipsArthitecture
 Compiling module finalTest
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 9 sub-compilation(s) to finish...
-Compiled 26 Verilog Units
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
 Built simulation executable G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_isim_beh.exe
-Fuse Memory Usage: 29172 KB
-Fuse CPU Usage: 1078 ms
+Fuse Memory Usage: 29156 KB
+Fuse CPU Usage: 937 ms

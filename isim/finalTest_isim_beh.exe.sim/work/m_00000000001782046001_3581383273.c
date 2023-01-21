@@ -69,8 +69,9 @@ static int ng44[] = {119, 0};
 static int ng45[] = {112, 0};
 static int ng46[] = {127, 0};
 static int ng47[] = {120, 0};
-static const char *ng48 = "time : %t";
-static const char *ng49 = "Memory : %x";
+static const char *ng48 = "8888888888888888888888888888888888888888888888888";
+static const char *ng49 = "time : %t";
+static const char *ng50 = "Memory : %x";
 
 
 
@@ -2047,9 +2048,11 @@ LAB1:    return;
 LAB4:    xsi_set_current_line(76, ng0);
 
 LAB5:    xsi_set_current_line(77, ng0);
-    t5 = xsi_vlog_time(t4, 1000.0000000000000, 1000.0000000000000);
-    xsi_vlogfile_write(1, 0, 0, ng48, 2, t0, (char)118, t4, 64);
+    xsi_vlogfile_write(1, 0, 0, ng48, 1, t0);
     xsi_set_current_line(78, ng0);
+    t2 = xsi_vlog_time(t4, 1000.0000000000000, 1000.0000000000000);
+    xsi_vlogfile_write(1, 0, 0, ng49, 2, t0, (char)118, t4, 64);
+    xsi_set_current_line(79, ng0);
     t2 = (t0 + 2088);
     t3 = (t2 + 56U);
     t5 = *((char **)t3);
@@ -2062,7 +2065,7 @@ LAB5:    xsi_set_current_line(77, ng0);
     t13 = (t0 + 1048U);
     t14 = *((char **)t13);
     xsi_vlog_generic_get_array_select_value(t6, 8, t5, t9, t12, 2, 1, t14, 32, 2);
-    xsi_vlogfile_write(1, 0, 0, ng49, 2, t0, (char)118, t6, 8);
+    xsi_vlogfile_write(1, 0, 0, ng50, 2, t0, (char)118, t6, 8);
     goto LAB2;
 
 }

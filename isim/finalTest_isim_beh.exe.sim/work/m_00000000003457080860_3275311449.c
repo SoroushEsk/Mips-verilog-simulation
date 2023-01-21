@@ -34,6 +34,7 @@ static int ng9[] = {4, 0};
 static int ng10[] = {5, 0};
 static int ng11[] = {6, 0};
 static int ng12[] = {7, 0};
+static int ng13[] = {8, 0};
 
 
 
@@ -454,6 +455,20 @@ LAB8:    xsi_set_current_line(35, ng0);
     t28 = (t15 + 64U);
     t29 = *((char **)t28);
     t35 = ((char*)((ng12)));
+    xsi_vlog_generic_get_array_select_value(t13, 32, t5, t14, t29, 2, 1, t35, 32, 1);
+    xsi_vlogfile_write(1, 0, 0, ng6, 3, t0, (char)119, t2, 32, (char)118, t13, 32);
+    xsi_set_current_line(44, ng0);
+    t2 = ((char*)((ng13)));
+    t3 = (t0 + 2568);
+    t4 = (t3 + 56U);
+    t5 = *((char **)t4);
+    t11 = (t0 + 2568);
+    t12 = (t11 + 72U);
+    t14 = *((char **)t12);
+    t15 = (t0 + 2568);
+    t28 = (t15 + 64U);
+    t29 = *((char **)t28);
+    t35 = ((char*)((ng13)));
     xsi_vlog_generic_get_array_select_value(t13, 32, t5, t14, t29, 2, 1, t35, 32, 1);
     xsi_vlogfile_write(1, 0, 0, ng6, 3, t0, (char)119, t2, 32, (char)118, t13, 32);
     goto LAB2;

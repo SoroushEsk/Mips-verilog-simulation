@@ -1,6 +1,7 @@
 `timescale 1ns / 1ps
 
 module FetchModule(
+			input hit1,
 			input [31:0] branchTarget,
 			input Clk,
 			input PCSrc,
@@ -23,6 +24,7 @@ module FetchModule(
  
 	
 	PC pcReg (
+	 .hit2(hit1),
     .dataInput(pcWire_), 
     .CLK(Clk), 
 	 .hit(hit),

@@ -10,19 +10,18 @@
          <ClosedNode>/DataMemory G:|University|term5|Az memary|ComputerArthitectureLab|DataMemory.v</ClosedNode>
          <ClosedNode>/Execute G:|University|term5|Az memary|ComputerArthitectureLab|Execute.v</ClosedNode>
          <ClosedNode>/MipsArthitecture G:|University|term5|Az memary|ComputerArthitectureLab|MipsArthitecture.v/DMSection - DataMemory</ClosedNode>
+         <ClosedNode>/MipsArthitecture G:|University|term5|Az memary|ComputerArthitectureLab|MipsArthitecture.v/EXESection - Execute</ClosedNode>
          <ClosedNode>/MipsArthitecture G:|University|term5|Az memary|ComputerArthitectureLab|MipsArthitecture.v/ID - decodeState</ClosedNode>
          <ClosedNode>/MipsArthitecture G:|University|term5|Az memary|ComputerArthitectureLab|MipsArthitecture.v/IF - FetchModule</ClosedNode>
          <ClosedNode>/MipsArthitecture G:|University|term5|Az memary|ComputerArthitectureLab|MipsArthitecture.v/c - DataMemory</ClosedNode>
          <ClosedNode>/MipsArthitecture G:|University|term5|Az memary|ComputerArthitectureLab|MipsArthitecture.v/e - Execute</ClosedNode>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>memToReg64_32_MuX - writeBack (G:/University/term5/Az memary/ComputerArthitectureLab/writeBack.v)</SelectedItem>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002cd000000020000000000000000000000000200000064ffffffff000000810000000300000002000002cd0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>memToReg64_32_MuX - writeBack (G:/University/term5/Az memary/ComputerArthitectureLab/writeBack.v)</CurrentItem>
+      <CurrentItem>forwardingUnit - forwading (G:/University/term5/Az memary/ComputerArthitectureLab/forwading.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -37,7 +36,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e0000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000763000000010000000100000000000000000000000064ffffffff000000810000000000000001000007630000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -48,7 +47,7 @@
       <SelectedItems>
          <SelectedItem>G:\University\term5\Az memary\ComputerArthitectureLab\Mux2NtoNTest.v</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >7</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >25</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000011f000000040101000100000000000000000000000064ffffffff0000008100000000000000040000003d00000001000000000000002100000001000000000000005d0000000100000000000000640000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
@@ -62,7 +61,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000e0000000010001000100000000000000000000000064ffffffff000000810000000000000001000000e00000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000e1000000010001000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
@@ -97,7 +96,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000763000000010000000100000000000000000000000064ffffffff000000810000000000000001000007630000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -109,6 +108,7 @@
          <ClosedNode>/AdderTest G:|University|term5|Az memary|ComputerArthitectureLab|AdderTest.v</ClosedNode>
          <ClosedNode>/DataMemoryTest G:|University|term5|Az memary|ComputerArthitectureLab|DataMemoryTest.v</ClosedNode>
          <ClosedNode>/Execute G:|University|term5|Az memary|ComputerArthitectureLab|Execute.v</ClosedNode>
+         <ClosedNode>/ExecuteTEst G:|University|term5|Az memary|ComputerArthitectureLab|ExecuteTEst.v</ClosedNode>
          <ClosedNode>/FetchTest G:|University|term5|Az memary|ComputerArthitectureLab|FetchTest.v</ClosedNode>
          <ClosedNode>/ID_EX_Reg_Test G:|University|term5|Az memary|ComputerArthitectureLab|ID_EX_Reg_Test.v</ClosedNode>
          <ClosedNode>/IFIDRegisterTest G:|University|term5|Az memary|ComputerArthitectureLab|IFIDRegisterTest.v</ClosedNode>
@@ -128,6 +128,8 @@
          <ClosedNode>/finalTest G:|University|term5|Az memary|ComputerArthitectureLab|finalTest.v/uut - MipsArthitecture/EXESection - Execute</ClosedNode>
          <ClosedNode>/finalTest G:|University|term5|Az memary|ComputerArthitectureLab|finalTest.v/uut - MipsArthitecture/ID - decodeState</ClosedNode>
          <ClosedNode>/finalTest G:|University|term5|Az memary|ComputerArthitectureLab|finalTest.v/uut - MipsArthitecture/IF - FetchModule</ClosedNode>
+         <ClosedNode>/forwadingTest G:|University|term5|Az memary|ComputerArthitectureLab|forwadingTest.v</ClosedNode>
+         <ClosedNode>/forwardingTest G:|University|term5|Az memary|ComputerArthitectureLab|forwardingTest.v</ClosedNode>
          <ClosedNode>/memoryInstTest G:|University|term5|Az memary|ComputerArthitectureLab|memoryInstTest.v</ClosedNode>
          <ClosedNode>/regFileTest G:|University|term5|Az memary|ComputerArthitectureLab|regFileTest.v</ClosedNode>
          <ClosedNode>/signExtendTest G:|University|term5|Az memary|ComputerArthitectureLab|signExtendTest.v</ClosedNode>
@@ -135,7 +137,7 @@
       <SelectedItems>
          <SelectedItem>finalTest (G:/University/term5/Az memary/ComputerArthitectureLab/finalTest.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >3</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >2</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000002e1000000020000000000000000000000000200000064ffffffff000000810000000300000002000002e10000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
@@ -147,19 +149,6 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
-      </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
-      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
-      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
-   </ItemView>
-   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
-      <ClosedNodes>
-         <ClosedNodesVersion>1</ClosedNodesVersion>
-      </ClosedNodes>
-      <SelectedItems>
          <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
@@ -168,8 +157,21 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VERILOG" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000e1000000010000000100000000000000000000000064ffffffff000000810000000000000001000000e10000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
+   </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
-   <CurrentView>Behavioral Simulation</CurrentView>
+   <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>

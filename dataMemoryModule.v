@@ -74,6 +74,7 @@ module dataMemoryModule(
 			end
 	end
 	always @ ( dataMemory ) begin
+		$display ("8888888888888888888888888888888888888888888888888");
 		$display ( "time : %t" , $time);
 		$display ("Memory : %x" , dataMemory[address]);
 	end

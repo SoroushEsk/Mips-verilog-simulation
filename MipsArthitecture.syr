@@ -4,13 +4,13 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.19 secs
+Total CPU time to Xst completion: 0.21 secs
  
 --> Reading design: MipsArthitecture.prj
 
@@ -109,7 +109,6 @@ Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\si
 Parsing module <signExtend32>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" into library work
 Parsing module <registerFile>.
-WARNING:HDLCompiler:991 - "G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 37: Event expressions must result in a singular type
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" into library work
 Parsing module <PCAdder>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\PC.v" into library work
@@ -143,6 +142,8 @@ Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\IF
 Parsing module <IFIDRegister>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\ID_EX_Register.v" into library work
 Parsing module <ID_EX_Register>.
+Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\forwading.v" into library work
+Parsing module <forwading>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" into library work
 Parsing module <FetchModule>.
 Analyzing Verilog file "G:\University\term5\Az memary\ComputerArthitectureLab\EXE_MEMRegister.v" into library work
@@ -161,6 +162,7 @@ Parsing module <MipsArthitecture>.
 =========================================================================
 
 Elaborating module <MipsArthitecture>.
+WARNING:HDLCompiler:872 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 12: Using initial value of change since it is never assigned
 
 Elaborating module <FetchModule>.
 
@@ -170,20 +172,12 @@ Elaborating module <PC>.
 
 Elaborating module <InstMemory>.
 Reading initialization file \"machineFile.txt\".
-WARNING:HDLCompiler:1670 - "G:\University\term5\Az memary\ComputerArthitectureLab\InstMemory.v" Line 16: Signal <instructionMemory> in initial block is partially initialized.
 WARNING:HDLCompiler:413 - "G:\University\term5\Az memary\ComputerArthitectureLab\InstMemory.v" Line 41: Result of 4-bit expression is truncated to fit in 3-bit target.
 
 Elaborating module <PCAdder>.
-WARNING:HDLCompiler:413 - "G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" Line 6: Result of 4-bit expression is truncated to fit in 1-bit target.
-WARNING:HDLCompiler:1127 - "G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" Line 6: Assignment to pCPlus ignored, since the identifier is never used
-WARNING:HDLCompiler:1499 - "G:\University\term5\Az memary\ComputerArthitectureLab\PCAdder.v" Line 2: Empty module <PCAdder> remains a black box.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 42: Size mismatch in connection of port <Pc>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 43: Size mismatch in connection of port <PCPlus>. Formal port size is 1-bit while actual signal size is 32-bit.
 
 Elaborating module <InstCache>.
 WARNING:HDLCompiler:91 - "G:\University\term5\Az memary\ComputerArthitectureLab\InstCache.v" Line 25: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:1625 - "G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 56: Canot display values larger than 32 bits in h/d/o/x format
-"G:\University\term5\Az memary\ComputerArthitectureLab\FetchModule.v" Line 56. $display time :  $time  t instMem : < ??? > 
 
 Elaborating module <IFIDRegister>.
 
@@ -192,71 +186,47 @@ Elaborating module <decodeState>.
 Elaborating module <signExtend32>.
 
 Elaborating module <registerFile>.
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 38. $display  $time 
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 39. $display Register0 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 40. $display Register1 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 41. $display Register2 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 42. $display Register3 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 43. $display Register4 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 44. $display Register5 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 45. $display Register6 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 46. $display Register7 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 47. $display Register8 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 48. $display Register9 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 49. $display Register10 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 50. $display Register11 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 51. $display Register12 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 52. $display Register13 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 53. $display Register14 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 54. $display Register15 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 55. $display Register16 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 56. $display Register17 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 57. $display Register18 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 58. $display Register19 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 59. $display Register20 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 60. $display Register21 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 61. $display Register22 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 62. $display Register23 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 63. $display Register24 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 64. $display Register25 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 65. $display Register26 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 66. $display Register27 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 67. $display Register28 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 68. $display Register29 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 69. $display Register30 : 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 70. $display Register31 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 35. $display time:  $time 
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 36. $display Register0 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 37. $display Register1 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 38. $display Register2 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 39. $display Register3 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 40. $display Register4 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 41. $display Register5 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 42. $display Register6 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 43. $display Register7 : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\registerFile.v" Line 44. $display Register8 : 0
 
 Elaborating module <controlUnit>.
-WARNING:HDLCompiler:1127 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 73: Assignment to opcode ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 90: Assignment to opcode ignored, since the identifier is never used
 
 Elaborating module <ID_EX_Register>.
+WARNING:HDLCompiler:1127 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 123: Assignment to forwardingData1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 124: Assignment to forwardingData2 ignored, since the identifier is never used
 
 Elaborating module <Execute>.
 
 Elaborating module <ALUcontrol>.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\Execute.v" Line 20: Size mismatch in connection of port <ALUControl>. Formal port size is 4-bit while actual signal size is 32-bit.
 
 Elaborating module <Mux2NToN>.
 
 Elaborating module <ALU>.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\Execute.v" Line 37: Size mismatch in connection of port <AluControl>. Formal port size is 4-bit while actual signal size is 32-bit.
 
 Elaborating module <Adder>.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 109: Size mismatch in connection of port <ALUop>. Formal port size is 3-bit while actual signal size is 2-bit.
-WARNING:HDLCompiler:1127 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 111: Assignment to ALUResult ignored, since the identifier is never used
-WARNING:HDLCompiler:413 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 116: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <forwading>.
+WARNING:HDLCompiler:413 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 150: Result of 32-bit expression is truncated to fit in 1-bit target.
 
 Elaborating module <EXE_MEMRegister>.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 122: Size mismatch in connection of port <rd>. Formal port size is 5-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 123: Size mismatch in connection of port <ALUReasult>. Formal port size is 32-bit while actual signal size is 1-bit.
 
 Elaborating module <DataMemory>.
 
 Elaborating module <dataMemoryModule>.
 WARNING:HDLCompiler:413 - "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 49: Result of 4-bit expression is truncated to fit in 3-bit target.
-"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 77. $display  $time 
-WARNING:HDLCompiler:91 - "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 78: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 78. $display Memory : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 77. $display 8888888888888888888888888888888888888888888888888
+"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 78. $display time :  $time 
+WARNING:HDLCompiler:91 - "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 79: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+"G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryModule.v" Line 79. $display Memory : 0
 
 Elaborating module <dataMemoryCachelvl1>.
 WARNING:HDLCompiler:91 - "G:\University\term5\Az memary\ComputerArthitectureLab\dataMemoryCachelvl1.v" Line 24: Signal <address> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
@@ -2315,16 +2285,26 @@ WARNING:HDLCompiler:1499 - "G:\University\term5\Az memary\ComputerArthitectureLa
 Elaborating module <Mem_Wb_register>.
 
 Elaborating module <writeBack>.
-"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 168. $display  $time 
-"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 169. $display 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 170. $display 0
-"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 171. $display 0
-WARNING:HDLCompiler:634 - "G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 123: Net <ALUReasult> does not have a driver.
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 202. $display time :  $time 
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 203. $display alu result : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 204. $display write reg :0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 205. $display inst : 0  if_id : 0     sign : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 206. $display pc : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 207. $display branch : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 208. $display pcsrc : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 209. $display hit : 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 210. $display regWrite = 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 211. $display 0    0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 212. $display 0      0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 213. $display 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 214. $display 0 first 0 second 0 outOfForward
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 215. $display rd = 0 rs = 0 rdn = 0 rdnn = 0
+"G:\University\term5\Az memary\ComputerArthitectureLab\MipsArthitecture.v" Line 216. $display ================================================================
 --> 
 
 Total memory usage is 4513652 kilobytes
 
 Number of errors   :    1 (   0 filtered)
-Number of warnings :   24 (   0 filtered)
+Number of warnings :   12 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

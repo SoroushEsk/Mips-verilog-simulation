@@ -1,0 +1,17 @@
+
+
+
+// Instantiate the module
+forwading instance_name (
+    .data1(data1), 
+    .data2(data2), 
+    .nextRD(nextRD), 
+    .nextnextRD(nextnextRD), 
+    .rt(rt), 
+    .rs(rs), 
+    .outData(outData), 
+    .first(first), 
+    .second(second)
+    );
+
+

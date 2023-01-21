@@ -41,6 +41,7 @@ module registerFile(
 		$display("Register%d : %x",05 , registers[05]);
 		$display("Register%d : %x",06 , registers[06]);
 		$display("Register%d : %x",07 , registers[07]);
+		$display("Register%d : %x",08 , registers[08]);
 	end
 	
 	

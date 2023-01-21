@@ -5,14 +5,17 @@ module MipsArthitecture(input Clk,
 								);
 
 	wire [31:00] inst, pcPlus;
-   wire  hit;
+   reg  hit, change;
 	wire  hit2, hit1;
 
-	
 
+	initial begin 
+		hit = 0;
+		change = 0;
+	end
 	wire [31:00] IF_IDInst, IF_IDPC ;
 	wire [31:00] register1, register2, signExtend;
-	wire [04:00] rd, rt, shmnt;
+	wire [04:00] rd, rt,rs, shmnt;
 	wire [05:00] opcode, funcBits;
 	wire [08:00] controlSig;
 	
@@ -21,7 +24,7 @@ module MipsArthitecture(input Clk,
 	wire [31:00] branchTarget;	
 	wire [31:00] ID_EXEReg1, ID_EXEReg2, ID_EXESignExt, ID_EXEpcPlus;
 	wire [08:00] ID_EXEControlSig;
-	wire [04:00] ID_EXERd, ID_EXERt, ID_EXEShmnt;
+	wire [04:00] ID_EXERd, ID_EXERt,ID_EXERs, ID_EXEShmnt;
 	wire [05:00] ID_EXEFuncBits;
 	wire zero;
 	wire [31:00] ALUResult;
@@ -39,16 +42,20 @@ module MipsArthitecture(input Clk,
 	wire [04:00] MEM_WBRd;
 	wire [31:00] writeDataToReg;
 	
+	wire [31:00] outDataForward, forwardingData1,forwardingData2;
+	wire first, second;
+
 ////////////////////////////////////////////////////////////////////////////////////start of state 1 If
 
 	 
 	 FetchModule IF (
+		 .hit1(change),
 		 .branchTarget(branchTarget), 
 		 .Clk(Clk), 
 		 .PCSrc(PCSrc), 
 		 .inst(inst), 
 		 .pcOut(pcPlus), 
-		 .hit(hit)
+		 .hit(hit1)
     );
 	 
 ////////////////////////////////////////	 register between two state 1 and 2 IF and ID
@@ -77,11 +84,14 @@ module MipsArthitecture(input Clk,
 		 .controlUnitSig(controlSig), 
 		 .rd(rd), 
 		 .rt(rt), 
+		 .rs(rs),
 		 .shmnt(shmnt),
 		 .funcBits(funcBits),
 		 .opcode(opcode)
     );
 ////////////////////////////////////////////////////////////////////////////////////////ID_EXE stage	 
+
+
 	 ID_EX_Register ID_EXERegister (
 		 .regInputA(register1), 
 		 .regInputB(register2), 
@@ -92,6 +102,7 @@ module MipsArthitecture(input Clk,
 		 .hit(hit), 
 		 .rd(rd), 
 		 .rt(rt), 
+		 .rs(rs),
 		 .shmnt(shmnt),
 		 .funct(funcBits), 
 		 .inputAOut(ID_EXEReg1), 
@@ -100,17 +111,20 @@ module MipsArthitecture(input Clk,
 		 .nextPCOut(ID_EXEpcPlus), 
 		 .controlSigOut(ID_EXEControlSig), 
 		 .rdOut(ID_EXERd), 
-		 .rtOut(ID_EXERt), 
+		 .rtOut(ID_EXERt),
+		 .rsOut(ID_EXERs),
 		 .shmntOut(ID_EXEShmnt),
 		 .functOut(ID_EXEFuncBits)
     );
 
 ///////////////////////////////////////////////////////////////////////////////////////EXE Stage
 
-	
+
+	assign forwardingData1 = first ? outDataForward : ID_EXEReg1;
+	assign forwardingData2 = second ? outDataForward : ID_EXEReg2;
 	Execute EXESection (
-		 .inputA(ID_EXEReg1), 
-		 .inputB(ID_EXEReg2), 
+		 .inputA(forwardingData1), 
+		 .inputB(forwardingData2), 
 		 .immediate(ID_EXESignExt), 
 		 .nextPC(ID_EXEpcPlus), 
 		 .shamt(ID_EXEShmnt), 
@@ -122,6 +136,17 @@ module MipsArthitecture(input Clk,
 		 .addResult(branchTarget)
     );
 	 
+	 forwading forwardingUnit (
+    .data1(EXE_MEMResult), 
+    .data2(MEM_WBALUResult), 
+    .nextRD(EXE_MEMRd), 
+    .nextnextRD(MEM_WBRd), 
+    .rt(ID_EXERt), 
+    .rs(ID_EXERs), 
+    .outData(outDataForward), 
+    .first(first), 
+    .second(second)
+    );
 	assign PCSrc = (ID_EXEControlSig[2]==1 && zero ==1) ? 1 : 0;
 	assign finalRd = ID_EXEControlSig[8] ? ID_EXERd : ID_EXERt;
 /////////////////////////////////////////////////////////////////////////////////////////EXE_MEM register
@@ -147,7 +172,7 @@ module MipsArthitecture(input Clk,
 		 .dataRead(EXE_MEMControlSig[4]), 
 		 .dataWrite(EXE_MEMControlSig[3]), 
 		 .outData(memOut), 
-		 .hit(hit1)
+		 .hit(hit2)
     );
 ///////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\MEM-WB
 	Mem_Wb_register MEM_WBRegister (
@@ -182,12 +207,22 @@ module MipsArthitecture(input Clk,
 		$display("branch : %x", branchTarget);
 		$display("pcsrc : %x" , PCSrc);
 		$display("hit : %x" , hit);
-		$display("regWrite = %x", MEM_WBControlSig[3]);
-		$display("%x    %x" ,MEM_WBRd,EXE_MEMResult);
+		$display("regWrite = %x", MEM_WBControlSig[5]);
+		$display("%x    %x" ,forwardingData1,forwardingData2);
 		$display("%x      %x" ,writeDataToReg,MEM_WBALUResult);		
 		$display("%x" ,MEM_WBControlSig[6]);	
+		$display("%x first %x second %x outOfForward" , first, second, outDataForward);
+		$display("rd = %x rs = %x rdn = %x rdnn = %x", rt, rs, EXE_MEMRd, MEM_WBRd);
 		$display("================================================================");
-	
+		
+		if ( hit1 & (hit2 | (EXE_MEMControlSig[4]==0))) begin 
+			hit = 1;
+		end else  hit = 0;
+		
+		if ( inst[31:26] == 6'b000110 | inst[31:26] == 6'b000100)
+			change = 0;
+		else 
+			change =1 ;
 	
 	end
 /*
