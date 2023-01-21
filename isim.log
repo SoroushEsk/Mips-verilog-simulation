@@ -200,7 +200,7 @@ Register          8 : 00000000
 time :               150000
 alu result : 00000073
 write reg :00000045
-inst : 1c420017  if_id : 1c420017     sign : 00000017
+inst : 10630000  if_id : 10630000     sign : 00000017
 pc : 00000020
 branch : 00000074
 pcsrc : 0
@@ -223,19 +223,19 @@ Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
 time :               170000
-alu result : 0000008a
+alu result : 00000000
 write reg :0000005c
-inst : 00000000  if_id : 00000000     sign : 00000017
-pc : 00000024
-branch : 00000078
+inst : 00602800  if_id : 08000000     sign : 00000000
+pc : 00000020
+branch : 0000001c
 pcsrc : 0
 hit : 1
 regWrite = 1
-00000073    00000073
+00000000    00000000
 0000005c      0000005c
 0
-1 first 1 second 00000073 outOfForward
-rd = 02 rs = 02 rdn = 02 rdnn = 02
+0 first 0 second 0000005c outOfForward
+rd = 03 rs = 03 rdn = 02 rdnn = 02
 ================================================================
 time:               180000
 Register          0 : 00000000
@@ -250,8 +250,8 @@ Register          8 : 00000000
 time :               190000
 alu result : 00000000
 write reg :00000073
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000028
+inst : 00602800  if_id : 08000000     sign : 00000000
+pc : 00000020
 branch : 00000020
 pcsrc : 0
 hit : 1
@@ -259,8 +259,8 @@ regWrite = 1
 00000000    00000000
 00000073      00000073
 0
-0 first 0 second 00000073 outOfForward
-rd = 00 rs = 00 rdn = 02 rdnn = 02
+0 first 0 second 0000005c outOfForward
+rd = 00 rs = 00 rdn = 03 rdnn = 02
 ================================================================
 time:               200000
 Register          0 : 00000000
@@ -274,24 +274,24 @@ Register          7 : 00000000
 Register          8 : 00000000
 time :               210000
 alu result : 00000000
-write reg :0000008a
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 0000002c
-branch : 00000024
+write reg :03020100
+inst : 00602800  if_id : 08000000     sign : 00000000
+pc : 00000020
+branch : 00000020
 pcsrc : 0
 hit : 1
 regWrite = 1
 00000000    00000000
-0000008a      0000008a
-0
+03020100      00000000
+1
 1 first 1 second 00000000 outOfForward
-rd = 00 rs = 00 rdn = 00 rdnn = 02
+rd = 00 rs = 00 rdn = 00 rdnn = 03
 ================================================================
 time:               220000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
@@ -300,12 +300,12 @@ Register          8 : 00000000
 time :               230000
 alu result : 00000000
 write reg :00000000
-inst : 00000000  if_id : 00000000     sign : 00000000
-pc : 00000030
-branch : 00000028
+inst : 00602800  if_id : 00602800     sign : 00000000
+pc : 00000024
+branch : 00000020
 pcsrc : 0
 hit : 1
-regWrite = 1
+regWrite = 0
 00000000    00000000
 00000000      00000000
 0
@@ -315,14 +315,89 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               240000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
 Register          5 : 00000000
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
 time :               250000
+alu result : 03020100
+write reg :00000000
+inst : 00000000  if_id : 00000000     sign : 00002800
+pc : 00000028
+branch : 0000a020
+pcsrc : 0
+hit : 1
+regWrite = 0
+03020100    00000000
+00000000      00000000
+0
+0 first 1 second 00000000 outOfForward
+rd = 00 rs = 03 rdn = 00 rdnn = 00
+================================================================
+time:               260000
+Register          0 : 00000000
+Register          1 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
+Register          4 : 00000000
+Register          5 : 00000000
+Register          6 : 00000000
+Register          7 : 00000000
+Register          8 : 00000000
+time :               270000
+alu result : 00000000
+write reg :00000000
+inst : 00000000  if_id : 00000000     sign : 00000000
+pc : 0000002c
+branch : 00000024
+pcsrc : 0
+hit : 1
+regWrite = 0
+00000000    00000000
+00000000      00000000
+0
+1 first 1 second 00000000 outOfForward
+rd = 00 rs = 00 rdn = 05 rdnn = 00
+================================================================
+time:               280000
+Register          0 : 00000000
+Register          1 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
+Register          4 : 00000000
+Register          5 : 00000000
+Register          6 : 00000000
+Register          7 : 00000000
+Register          8 : 00000000
+time :               290000
+alu result : 00000000
+write reg :03020100
+inst : 00000000  if_id : 00000000     sign : 00000000
+pc : 00000030
+branch : 00000028
+pcsrc : 0
+hit : 1
+regWrite = 1
+00000000    00000000
+03020100      03020100
+0
+1 first 1 second 00000000 outOfForward
+rd = 00 rs = 00 rdn = 00 rdnn = 05
+================================================================
+time:               300000
+Register          0 : 00000000
+Register          1 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
+Register          4 : 00000000
+Register          5 : 03020100
+Register          6 : 00000000
+Register          7 : 00000000
+Register          8 : 00000000
+time :               310000
 alu result : 00000000
 write reg :00000000
 inst : 00000000  if_id : 00000000     sign : 00000000
@@ -337,17 +412,17 @@ regWrite = 1
 1 first 1 second 00000000 outOfForward
 rd = 00 rs = 00 rdn = 00 rdnn = 00
 ================================================================
-time:               260000
+time:               320000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
-time :               270000
+time :               330000
 alu result : 00000000
 write reg :00000000
 inst : 08000000  if_id : 08000000     sign : 00000000
@@ -362,88 +437,13 @@ regWrite = 1
 1 first 1 second 00000000 outOfForward
 rd = 00 rs = 00 rdn = 00 rdnn = 00
 ================================================================
-time:               280000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-Register          8 : 00000000
-time :               290000
-alu result : 00000000
-write reg :00000000
-inst : 08000000  if_id : 08000000     sign : 00000000
-pc : 00000034
-branch : 00000030
-pcsrc : 0
-hit : 0
-regWrite = 1
-00000000    00000000
-00000000      00000000
-0
-1 first 1 second 00000000 outOfForward
-rd = 00 rs = 00 rdn = 00 rdnn = 00
-================================================================
-time:               300000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-Register          8 : 00000000
-time :               310000
-alu result : 00000000
-write reg :00000000
-inst : 08000000  if_id : 08000000     sign : 00000000
-pc : 00000034
-branch : 00000030
-pcsrc : 0
-hit : 0
-regWrite = 1
-00000000    00000000
-00000000      00000000
-0
-1 first 1 second 00000000 outOfForward
-rd = 00 rs = 00 rdn = 00 rdnn = 00
-================================================================
-time:               320000
-Register          0 : 00000000
-Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
-Register          4 : 00000000
-Register          5 : 00000000
-Register          6 : 00000000
-Register          7 : 00000000
-Register          8 : 00000000
-time :               330000
-alu result : 00000000
-write reg :00000000
-inst : 08000000  if_id : 08000000     sign : 00000000
-pc : 00000034
-branch : 00000030
-pcsrc : 0
-hit : 0
-regWrite = 1
-00000000    00000000
-00000000      00000000
-0
-1 first 1 second 00000000 outOfForward
-rd = 00 rs = 00 rdn = 00 rdnn = 00
-================================================================
 time:               340000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -465,10 +465,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               360000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -490,10 +490,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               380000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -515,10 +515,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               400000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -540,10 +540,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               420000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -565,10 +565,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               440000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -590,10 +590,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               460000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -615,10 +615,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               480000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -640,10 +640,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               500000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -665,10 +665,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               520000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -690,10 +690,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               540000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -715,10 +715,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               560000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -740,10 +740,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               580000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -765,10 +765,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               600000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -790,10 +790,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               620000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -815,10 +815,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               640000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -840,10 +840,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               660000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -865,10 +865,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               680000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -890,10 +890,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               700000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -915,10 +915,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               720000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -940,10 +940,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               740000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -965,10 +965,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               760000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -990,10 +990,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               780000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1015,10 +1015,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               800000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1040,10 +1040,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               820000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1065,10 +1065,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               840000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1090,10 +1090,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               860000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1115,10 +1115,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               880000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1140,10 +1140,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               900000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1165,10 +1165,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               920000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1190,10 +1190,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               940000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1215,10 +1215,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               960000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1240,10 +1240,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:               980000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000
@@ -1265,10 +1265,10 @@ rd = 00 rs = 00 rdn = 00 rdnn = 00
 time:              1000000
 Register          0 : 00000000
 Register          1 : 00000000
-Register          2 : 0000008a
-Register          3 : 00000000
+Register          2 : 00000073
+Register          3 : 03020100
 Register          4 : 00000000
-Register          5 : 00000000
+Register          5 : 03020100
 Register          6 : 00000000
 Register          7 : 00000000
 Register          8 : 00000000

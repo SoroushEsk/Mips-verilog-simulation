@@ -7,11 +7,12 @@ module MipsArthitecture(input Clk,
 	wire [31:00] inst, pcPlus;
    reg  hit, change;
 	wire  hit2, hit1;
-
+	integer noOpCounter;
 
 	initial begin 
 		hit = 0;
 		change = 0;
+		noOpCounter = 0;
 	end
 	wire [31:00] IF_IDInst, IF_IDPC ;
 	wire [31:00] register1, register2, signExtend;
@@ -45,6 +46,7 @@ module MipsArthitecture(input Clk,
 	wire [31:00] outDataForward, forwardingData1,forwardingData2;
 	wire first, second;
 
+	wire [31:00] muxOutInst;
 ////////////////////////////////////////////////////////////////////////////////////start of state 1 If
 
 	 
@@ -57,11 +59,12 @@ module MipsArthitecture(input Clk,
 		 .pcOut(pcPlus), 
 		 .hit(hit1)
     );
+	 assign muxOutInst = ~change ? 32'b00001000000000000000000000000000 : inst;
 	 
 ////////////////////////////////////////	 register between two state 1 and 2 IF and ID
 	 IFIDRegister IF_ID_Reg (
 		 .nextPC(pcPlus), 
-		 .inst(inst), 
+		 .inst(muxOutInst), 
 		 .Clk(Clk), 
 		 .hit(hit ), 
 		 .outInst(IF_IDInst), 
@@ -221,8 +224,12 @@ module MipsArthitecture(input Clk,
 		
 		if ( inst[31:26] == 6'b000110 | inst[31:26] == 6'b000100)
 			change = 0;
-		else 
-			change =1 ;
+			if ( inst[31:26] == 6'b000110) noOpCounter = 3;
+			if ( inst[31:26] == 6'b000100) noOpCounter = 3;
+		else begin 
+			if(noOpCounter != 0 ) noOpCounter = noOpCounter -1 ;
+			if(noOpCounter == 0 ) change = 1;
+		end
 	
 	end
 /*

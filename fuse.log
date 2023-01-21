@@ -62,8 +62,8 @@ Compiling module MipsArthitecture
 Compiling module finalTest
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Waiting for 20 sub-compilation(s) to finish...
+Waiting for 17 sub-compilation(s) to finish...
 Compiled 27 Verilog Units
 Built simulation executable G:/University/term5/Az memary/ComputerArthitectureLab/finalTest_isim_beh.exe
-Fuse Memory Usage: 29156 KB
-Fuse CPU Usage: 937 ms
+Fuse Memory Usage: 29232 KB
+Fuse CPU Usage: 983 ms
